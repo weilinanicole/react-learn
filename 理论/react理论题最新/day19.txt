@@ -1,0 +1,117 @@
+1.[单选题]( 5 分)
+React的特点是函数式编程
+A: MVVM
+B: 单向数据流
+C: 脏检查)
+D: 双向绑定
+正确答案： A
+
+2.[单选题]( 5 分)
+(state, action) => state 的纯函数是用来做 
+A: action
+B: store
+C: reducer
+D: react
+正确答案： C
+
+3.[单选题]( 5 分)
+为了实现异步action应该使用下面那个中间件
+
+A: redux-logger
+B: redux-logge
+C: tredux-thunk
+D: react-thunk
+正确答案： C
+
+4.[单选题]( 5 分)
+react在组件销毁阶段有几个生命周期
+A: 1
+B: 2
+C: 3
+D: 4
+正确答案： A
+
+5.[单选题]( 5 分)
+react中ref作用在组件上返回的是 
+A: 组件dom
+B: 组件虚拟don
+C: 组件实例
+D: 组件的state
+正确答案： C
+
+6.[单选题]( 5 分)
+ReactDOM.render()的第二个参数是;
+A: dom元素
+B: react组件
+C: 匹配的原生dom对象
+D: 文字
+正确答案： C 
+
+7. [多选题] ( 5 分)
+下面那些属于前端框架 
+A: jquery
+B: react
+C: iscroll
+D: vue
+正确答案：BD
+
+8. [多选题] ( 5 分)
+redux中reduce描述正确的是 
+A: 第一个参数是store
+B: 第二个参数是state
+C: 修改state的唯一途径
+D: 返回一个新的state
+正确答案：BCD
+
+9. [多选题] ( 5 分)
+react组件描述正确的是 
+A: 在react组件中没有指令
+B: 在react中有生命周期的概念
+C: react中使用虚拟dom
+D: react是数据双向绑定的
+正确答案：BCD
+
+10. [判断题] ( 5 分)
+react中在jsx上可以使用过滤器 
+正确答案： 错
+
+
+11. [判断题] ( 5 分)
+react中可以创建计算属性 
+正确答案： 错
+
+12. [判断题] ( 5 分)
+react组件和redux连接需要使用connect函数 
+正确答案： 对
+
+13. [填空题(自动判卷)] ( 5 分)
+在react中componentWillUnmount是值__________ 
+正确答案： 销毁的生命周期函数
+
+14. [填空题(手动判卷)] ( 5 分)
+react这样使用____________技术实现vue中的angular中数据双向绑定 
+正确答案： 受控组件
+
+15. [填空题(手动判卷)] ( 5 分)
+react中findDOMNode()接受_____________返回组件实例对应的dom 
+正确答案： 组件实例
+
+16. [填空题(手动判卷)] ( 5 分)
+react中使用___________绑定事件，并且没有兼容问题 
+正确答案： 合成事件
+
+17. [填空题(手动判卷)] ( 5 分)
+在react中提高ui渲染效率是因为使用了_________]]
+正确答案： 虚拟dom
+
+18. [填空题(手动判卷)] ( 5 分)
+redux中添加中间件使用__________________ 
+正确答案： applyMiddleware
+
+19. [填空题(手动判卷)] ( 5 分)
+将拆分后的reducer 函数进行合并使用 __________ 
+正确答案： combineReducers
+
+20. [填空题(手动判卷)] ( 5 分)
+reducer接受的第一个参数是_______，第二个参数是_________ 知识点：redux 来源：大纲
+正确答案： state, action

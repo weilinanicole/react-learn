@@ -1,0 +1,98 @@
+
+1.在react中如何将input输入的值和state状态绑定到一起
+A: v-model
+B: ng-model
+C: 受控组件
+D: r-model
+正确答案： C
+
+2.在react合成事件中的事件名称的定义规则是
+A: 首字母大写
+B: 使用驼峰命名
+C: 使用html原生事件名称
+D: 数字＋字母组合
+正确答案： B
+
+3.在react中textarea使用什么控制内容
+A: text
+B: html
+C: value
+D: innerText
+正确答案： C
+
+4.读取state中value的值应该使用 
+A: this.value
+B: this.props.value
+C: this.state.value
+
+D: 以上都不对
+正确答案： C
+
+5.jsx中class的替代方案是 
+A: class
+B: Class
+C: className
+D: ClassName
+正确答案： C
+
+6.ref的是函数的，那这个函数如何触发：
+A: 自动触发
+B: 在componentWillMount中触发
+C: render中触发
+D: constructor中触发
+正确答案： A
+
+7. 在react中ref的值可以是 
+A: string
+B: 函数
+C: 表达式
+D: 语句
+正确答案：AB
+
+8. react中针对于表单的处理有 
+A: 受控组件
+B: 非受控组件
+C: model
+D: scope
+正确答案：AB
+
+9. 在react中受控组件下面那些input类型是通过value和react状态进行绑定的 
+A: text
+B: select
+C: textarea
+D: password
+正确答案：ABCD
+
+10. react 中textarea的值是通过text绑定的state值的同步 
+正确答案： 错
+
+11. react中select中通过selected设置select默认值绑定到state中 
+正确答案： 对
+
+12.react中可以通过onchange事件绑定input的输入同步 
+正确答案： 错
+
+13.受控组件在input输入事件处理函数中通过______________获取input元素 
+正确答案： event.target
+
+14.在react当中，<textarea> 元素通过_______________定义它的文本内容 
+正确答案： value
+
+15. 在select中selected属性是定义被选中状态的，那么在react受控组件中是根据__________的___________属性控制 
+正确答案： select, value
+
+16.如果让表单数据由 DOM 处理时，替代方案为使用___________________ 
+正确答案： 非受控组件
+
+17. 值由React控制的输入表单元素称为_________________ 
+正确答案： 受控组件
+
+18.在react中受控组件中input元素的vaule应该是______________________中的属性 
+正确答案： state
+
+19.受控组件中input默认值应该是____________________, 
+正确答案： state中的默认值
+
+20. 非受控组件中的默认值应该使用_____________定义 
+正确答案： defaultValue
+ 

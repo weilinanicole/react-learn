@@ -1,0 +1,89 @@
+1.在react中ref值是字符串，并且作用在组件上，那么通过refs获取返回的是 
+A: 组件实例
+B: 组件对应的dom
+C: 组件元素
+D: document
+正确答案： A
+
+2.在react中单项数据流是指 
+A: props数据传递
+B: state内部状态
+C: 组件生命周期
+D: 组件式开发流程
+正确答案： A
+
+3.react组件生命周期有几个， 
+A: 11
+B: 10
+C: 9
+D: 8
+正确答案： B 
+4.父子组件通信属于 
+B: 父组件使用子组件的属性
+C: 组件的实例传递
+D: 以上都不对
+正确答案： A
+
+5.react中跨级组件数据使用什么方式传递最便捷 
+A: props
+B: state
+C: context
+D: data
+正确答案： C
+
+6.react中组件组合使用props中那个属性获取：
+A: child
+B: node
+C: children
+D: childrens
+正确答案： C
+试题解析：
+我的答案： A
+7.下面那些事件属于react的合成事件 
+A: onScroll
+B: onClick
+C: onTap
+D: onclick
+正确答案：AB
+8. 下面那些生命周期属于react的生命周期 
+A: componentWillMount
+B: ref函数
+C: render
+D: componentDidMount
+正确答案：ACD
+
+9. props的值可以是 
+A: 表达式
+B: 组件元素
+C: 字符串
+D: js语句
+正确答案：ABC
+
+10. react中高阶组件就是使用一个函数对组件进行二次封装，返回一个新的组件
+正确答案： 对
+
+11. react中props的值可以是一个组件元素 
+正确答案： 对
+
+12.react中state值的改变有2种方法 知识点：组件状态 来源：大纲
+正确答案： 错
+13.在使用class类创建的组件中_______________定义props的默认值 
+正确答案： static defaultProps = {}
+
+14.react中通过_____________获取组件内包含的内容
+正确答案： props.children
+
+15.react中通过_______改变state的值,
+正确答案： setState()
+
+16. 在react中如果组件内部需要多个包含组件的嵌套应该使用___________做子组件的传递 
+正确答案： props
+
+17. 在react中props和state是___________优先, 
+正确答案： props
+
+18.react中父子组件之间的通信使用____________ 
+正确答案： props
+
+20.在react中最推荐的组件的创建方式是_________________
+正确答案： 函数创建

@@ -1,0 +1,384 @@
+2.[单选题]( 2 分)
+下面那种组件构建方式适合使用构建一个简单的ui组件 来源：大纲
+A: 函数式
+B: class
+C: creatClass
+D: prototype
+正确答案： A
+
+
+5.[单选题]( 2 分)
+在react中ref的值是函数的话，在组件销毁的时候会给ref函数中传入 
+A: 字符串
+B: null
+C: 对象
+D: 布尔
+正确答案： B
+
+
+6.[单选题]( 2 分)
+在react中ref作用到组件上使用refs获取对应的ref返回的是 
+A: 组件对应的dom
+B: 组件对应的实例
+C: dom
+D: 以上都不对
+正确答案： B
+
+
+7.[单选题]( 2 分)
+ref作用在dom元素上的时候使用refs获取对应的ref返回的是
+A: 组件对应的dom
+B: 组件对应的实例
+C: dom
+D: 以上都不对
+正确答案： C
+
+
+11.[单选题]( 2 分)
+在react合成事件中this默认清空下是 
+A: window
+B: dom
+C: 组件实例
+D: undefined
+正确答案： D
+
+
+12.[单选题]( 2 分)
+在redux中store的创建是使用 
+A: createStore（）
+B: dispatch(action)
+C: subscribe(listener)
+D: replaceReducer()
+正确答案： A
+
+
+13.[单选题]( 2 分)
+redux中改变state通过 
+A: 操作state原来的值
+B: dispatch 一个 action
+C: 执行action函数
+D: 执行subscribe函数
+正确答案： B 
+试题解析：
+
+
+15.[单选题]( 2 分)
+dispatch方法中传递的是什么内容 
+A: state
+B: store
+C: action
+D: reducers
+正确答案： C
+
+
+17. [多选题] ( 3 分)
+下面那些方法是属于store提供的方法 
+A: getState()
+B: dispatch(action)
+C: subscribe(listener)
+D: createStore()
+正确答案：ABC
+
+
+18. [多选题] ( 3 分)
+react-redux提供下面那些内容 
+A: combineReducers()
+B: applyMiddleware()
+
+C: connect()
+D: Provider
+正确答案：CD
+
+
+
+20. [多选题] ( 3 分)
+JSX表达式中使用条件判断可以通过以下哪几种方法来实现 
+A: 三元运算
+B: if语句
+C: ||运算
+D: &&运算
+正确答案：ACD
+
+
+23. [判断题] ( 2 分)
+connect函数可以将state与react组件连接在一起 
+正确答案： 对
+
+
+
+25. [判断题] ( 2 分)
+react中路由配置是通过组件完成的 
+正确答案： 对
+
+
+
+26. [填空题(自动判卷)] ( 3 分)
+Reducer接收的参数是__________和__________ 
+正确答案： state , action
+
+
+27. [填空题(手动判卷)] ( 3 分)
+在react中获取组件实例对应的dom使用________________ 方法 
+正确答案： findDOMNode()
+
+
+28. [填空题(手动判卷)] ( 3 分)
+在react-redux中向组件传递store使用____________ e
+正确答案： Provider
+
+
+29. [填空题(手动判卷)] ( 3 分)
+在react中吧state传递到组件使用____________________
+正确答案： connect
+
+
+38. [填空题(手动判卷)] ( 3 分)
+在react 路由中是通过___________组件的__________属性控制跳转 
+正确答案： Link, to
+
+
+
+37. [填空题(手动判卷)] ( 3 分)
+定义props值的默认值使用_________________ 
+正确答案： defaultProps
+
+
+35. [填空题(手动判卷)] ( 3 分)
+值由React控制的表单元素称为_________________ 
+正确答案： 受控组件
+
+
+34. [填空题(手动判卷)] ( 3 分)
+在react中，<textarea> 元素通过_______________定义它的文本内容 
+正确答案： value
+
+
+
+31. [填空题(手动判卷)] ( 3 分)
+react中用来配置路由规则的路由组件是__________ 
+正确答案： Route
+
+32. [填空题(手动判卷)] ( 3 分)
+redux的数据流是_____________ 
+正确答案： 单一数据源
+
+
+30. [填空题(手动判卷)] ( 3 分)
+react中生命周期中最先可以获取到dom的是___________________ 
+正确答案： componentWillMount
+
+
+2.在react合成事件中的事件名称的定义规则是
+A: 首字母大写
+B: 使用驼峰命名
+C: 使用html原生事件名称
+D: 数字＋字母组合
+正确答案： B
+
+
+6.ref的是函数的，那这个函数如何触发：
+A: 自动触发
+B: 在componentWillMount中触发
+C: render中触发
+D: constructor中触发
+正确答案： A
+
+
+7. 在react中ref的值可以是 
+A: string
+B: 函数
+C: 表达式
+D: 语句
+正确答案：AB
+
+
+9. 在react中受控组件下面那些input类型是通过value和react状态进行绑定的 
+A: text
+B: select
+C: textarea
+D: password
+正确答案：ABCD
+
+
+20. 非受控组件中的默认值应该使用_____________定义 
+正确答案： defaultValue
+
+
+1、ReactDOM.findDOMNode(this)执行后返回的结果是,  知识点：dom操作 来源：大纲
+	组件实例相对应的DOM节点
+
+
+5、在react生命周期中哪个方法是需要创建并返回一个虚拟DOM的?
+	render
+
+
+16、redux中使用Dispatch方法需要传递什么内容
+	action
+
+
+18、react路由中渲染与位置匹配的第一个子元素<Route>或<Redirect>使用
+	Switch
+
+
+25、react中props的值可以是下面哪些类型
+	dom元素、js表达式
+
+
+32、react中props的值可以是一个组件元素，也可以是一个函数  对
+
+
+35、react中利用回调可以实现子父组件的通信，在父组件传递一个回调函数，在子组件
+	调用并且将数据传递到回调函数中
+
+
+37、react框架中用于配置路由规则的路由组件是Route
+
+
+38、react中在自定义组件上写的元素属性，在组件内部需要通过props接收
+
+
+6.react中组件组合使用props中那个属性获取：
+A: child
+B: node
+C: children
+D: childrens
+正确答案： C
+
+
+9. props的值可以是 
+A: 表达式
+B: 组件元素
+C: 字符串
+D: js语句
+正确答案：ABC
+
+
+9.props的值可以是 
+A: dom元素
+B: 组件元素
+C: 字符串
+D: js表达式
+正确答案：ABCD
+
+
+14.react中通过_____________获取组件内包含的内容
+正确答案： props.children
+
+
+13.在使用class类创建的组件中_______________定义props的默认值 
+正确答案： static defaultProps = {}
+
+
+20.在react中最推荐的组件的创建方式是_________________
+正确答案： 函数创建
+
+
+8. ref的值如果是函数的，在组件销毁的时候执行时，不会传递下面那些东西 
+A: element
+B: node
+C: null
+D: event对象
+正确答案：ACD
+
+
+18. 声明props的值是一个react元素使用______________________
+正确答案： PropTypes.element
+
+
+
+16.如果让表单数据由 DOM 处理时，替代方案为使用___________________ 
+正确答案： 非受控组件
+
+
+17. 值由React控制的输入表单元素称为_________________ 
+正确答案： 受控组件
+
+
+18.在react中受控组件中input元素的vaule应该是______________________中的属性 
+正确答案： state
+
+
+19.受控组件中input默认值应该是____________________
+正确答案： state中的默认值
+
+
+13.受控组件在input输入事件处理函数中通过______________获取input元素 
+正确答案： event.target
+
+
+14、下面哪些方案可以实现react子父组件通信
+A props回调函数
+C refs
+D 自定义事件
+
+
+17、子向父传值可以使用自定义事件  错
+
+
+19、react中利用回调可以实现子父组件的通信
+
+
+18、没有嵌套关系的组件通信可以同时调用一个父级给的回调函数  对
+
+
+
+1、以下对proptypes验证描述正确的是
+ B、如果父组件没有传递props，proptypes检测会发生在defaultprops之后
+
+
+3、用javascript没描述html嵌套组合元素时，可以简单地被表示成什么
+ A、json对象
+
+
+4、如何渲染使用javascript对象表示html层层嵌套的元素
+ A、使用递归渲染
+
+
+13、shouldComponentUpdate生命周期描述正确的是  ABC
+A、组件是否应当渲染新的props或state
+B、返回false表示跳过后续的生命周期方法
+C、在首次渲染期间或者调用了forceUpdate方法后，该方法不会被调用
+D、可以不用指定返回值
+
+
+14、componentWillreceiveProps生命周期描述正确的是：ABC
+A、组件接收到新的props时调用
+B、并将其作为参数nextProps使用
+C、此时可以更改组件的props及state
+D、接收新的state
+
+
+17、proptypes只可以验证类型，不能检测是否有值  错
+
+
+19、react中props的值可以是一个组件元素  对
+
+
+3、在class创建的组件定义props类型使用
+	static propTypes={}
+
+13、match.params可以获取path中包含的一些额外数据
+
+14、match.path可以获取Route组件path属性的值
+
+
+16、react中声明props值的类型是string应该 
+static proptypes={optionalString:PropTypes.string}
+
+
+19、声明props的值是一个react元素使用 PropTypes.element
+
+
+10、Router组件可以使用嵌套的写法  错
+
+
+20、非受控组件中的默认值应该使用 defaultValue定义
+
+
+12、react中可以通过onchange事件绑定的input的输入同步  错
+
+
+13、react中通过 static defaultProps={} 定义props的默认值
+
+
+14、react中通过PropTypes定义props值的类型

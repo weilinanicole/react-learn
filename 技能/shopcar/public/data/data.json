@@ -1,0 +1,14 @@
+[
+    {
+        "name":"首页",
+        "path":"/first"
+    },
+    {
+        "name":"购物车",
+        "path":"/shop"
+    }
+    ,{
+        "name":"我的",
+        "path":"/mine"
+    }
+]

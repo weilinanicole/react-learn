@@ -1,0 +1,470 @@
+1.[单选题]( 5 分)
+applyMiddleware是属于下面那个包抛出的方法 知识点：redux 来源：大纲
+A: redux
+B: react-redux
+C: redux-thunk
+D: react-dom
+正确答案： A
+
+
+
+2.[单选题]( 5 分)
+dispatch方法是下面那个对象的方法 知识点：redux 来源：大纲
+A: store实例
+B: actions
+C: reducers
+D: state
+正确答案： A
+
+
+
+5.[单选题]( 5 分)
+Provider组件需要传递 知识点：redux 通信来源：大纲
+A: state
+B: store
+C: props
+D: context
+正确答案： B
+
+
+
+7. [多选题] ( 5 分)
+ref的值是函数会在什么时候执行 知识点：redux 来源：大纲
+A: componentDidMount之后
+B: componentDidMount之前
+C: componentDidUpdate之前
+D: componentDidUpdate之后
+正确答案：BC
+
+
+
+9. [多选题] ( 5 分)
+如何实现组件嵌套 知识点:组件 来源：大纲
+A: 使用children属性
+B: 使用props传递组件
+C: 使用append
+D: 使用state
+正确答案：AB
+
+
+10. [判断题] ( 5 分)
+reducer是改变state的唯一途径 知识点：redux 来源：大纲
+正确答案： 对
+
+
+11. [判断题] ( 5 分)
+在action内部可以实现异步操作 知识点：redux 来源：大纲
+正确答案： 对
+
+
+13. [填空题(自动判卷)] ( 5 分)
+redux中通过__________中间件实现异步action 知识点：redux 来源：大纲
+正确答案： redux-thunk 
+
+
+14. [填空题(手动判卷)] ( 5 分)
+redux中通过_____________方法添加中间件 知识点：redux 来源：大纲
+正确答案： applyMiddleware
+
+
+15. [填空题(手动判卷)] ( 5 分)
+添加中间件需要添加到createStore方法中的第__________几个参数 知识点：redux 来源：大纲
+正确答案： 2
+
+
+16. [填空题(手动判卷)] ( 5 分)
+Reducer通过__________判断执行的任务 知识点：redux 来源：大纲
+正确答案： action.type
+
+
+17. [填空题(手动判卷)] ( 5 分)
+dispatch通过传递________执行__________ 知识点：redux 来源：大纲
+正确答案： action, reducer
+
+
+18. [填空题(手动判卷)] ( 5 分)
+connect中第一个参数可以接收到___________返回一个对象，将对象内容添加到组件的_________ 知识点：redux 来源：大纲
+正确答案： state, props
+
+
+
+19. [填空题(手动判卷)] ( 5 分)
+action的类型是________必须有_________ 知识点：redux 来源：大纲
+正确答案： Object, type属性
+
+
+20. [填空题(手动判卷)] ( 5 分)
+connect中第________参数可以获取到dispatch 
+正确答案： 2 
+
+
+5.[单选题]( 5 分)
+在路由对应的组件内部的组件如果要获取 location属性则需要 知识点：路由 通信来源：大纲
+A: withRouter()
+B: history()
+C: location()
+D: match()
+正确答案： A
+
+
+7. [多选题] ( 5 分)
+react的优化方法有 知识点：优化 来源：大纲
+A: 组件执行 shouldComponentUpdate 方法，自行决定是否更新
+B: 给列表中的组件添加key属性
+C: 使用PureRenderMixin
+D: 组件执行 componentWillReceiveProps 方法，自行决定是否更新
+正确答案：ABC
+
+
+11. [判断题] ( 5 分)
+react中shouldComponentUpdate提前于DOM Diff执行 知识点：优化 来源：大纲
+正确答案： 对
+
+
+12. [判断题] ( 5 分)
+react中虚拟dom是在shouldComponentUpdate之后生成的 知识点：优化：大纲
+正确答案： 对
+
+
+13. [填空题(自动判卷)] ( 5 分)
+React的性能瓶颈主要出现在生成______及_______的过程 知识点：优化 来源：大纲
+正确答案： DOM, DOM Diff
+
+
+14. [填空题(手动判卷)] ( 5 分)
+提高性能可以在________________阶段判断，如果属性及状态与上一次相同，这个时候很明显UI不会变化，也不需要执行后续生成DOM，DOM Diff的过程了 知识点：优化 来
+正确答案： shouldComponentUpdate
+
+
+17. [填空题(手动判卷)] ( 5 分)
+react中针对组件优化组要使用________和_____________ 知识点：优化 来源：大纲
+正确答案： PureRender, List and Key
+
+
+18. [填空题(手动判卷)] ( 5 分)
+react中通过________模块解决相同值改变后虚拟DOM的diff的多余次数 
+正确答案： react-addons-pure-render-mixin
+
+
+19. [填空题(手动判卷)] ( 5 分)
+shouldComponentUpdate函数中可以接受到_____________和____________ 知识点：优化 来源：大纲
+正确答案： nextProps, nextState
+
+
+
+20. [填空题(手动判卷)] ( 5 分)
+connect中第一个参数可以读取___________数据 知识点：redux 来源：大纲
+正确答案： redux中 state 
+
+
+17. [填空题(手动判卷)] ( 5 分)
+虚拟dom主要是在_________生命周期中生成 知识点：优化 来源：大纲
+正确答案： render
+
+
+19. [填空题(手动判卷)] ( 5 分)
+在react中针对html结构最好的选择是使用_____________来编写 知识点：优化 来源：大纲
+正确答案： jsx
+
+
+1.[单选题]( 5 分)
+refs的返回值是什么类型的 知识点：优化 来源：大纲
+A: 对象
+B: 数组
+C: 字符串
+D: 布尔
+正确答案： A
+
+
+5.[单选题]( 5 分)
+在react中如何给组件传递动态的属性值 知识点：路由 通信来源：大纲
+A: 使用:
+B: 使用v-bind
+C: 使用{}
+D: 使用{{}}
+正确答案： C
+
+
+6.[单选题]( 5 分)
+在react中添加浏览器原生事件需要在那个生命周期执行：知识点：路由 来源：大纲
+A: shouldComponentUpdate
+B: componentWillMount
+
+C: componentDidMount
+D: componentWillReceiveProps
+正确答案： C
+
+
+7. [多选题] ( 5 分)
+下面那些属于react的合成事件 知识点：优化 来源：大纲
+A: click
+B: onKeyDown
+C: onFocus
+D: onclick
+正确答案：BC
+
+
+11. [判断题] ( 5 分)
+jsx和html一样 知识点：优化 来源：大纲
+正确答案： 错
+
+
+14. [填空题(手动判卷)] ( 5 分)
+react中要结合react组件和redux需要使用______________方法 知识点：优化 来源：大纲
+正确答案： connect
+
+
+18. [填空题(手动判卷)] ( 5 分)
+react中组件组合可以使用__________接收到组件内的子节点 知识点：优化 来源：大纲
+正确答案： this.props.children
+
+
+4.[单选题]( 2 分)
+在路由对应的组件内部的组件如果要获取 match属性则需要 
+A: withRouter()
+B: history()
+
+C: location()
+D: match()
+正确答案： A
+
+
+5.[单选题]( 2 分)
+在react中ref的值是函数的话，在组件销毁的时候会给ref函数中传入 
+A: 字符串
+B: null
+C: 对象
+D: 布尔
+正确答案： B
+
+
+18. [多选题] ( 3 分)
+redux连接到 React我们需要 
+A: 渲染之前将根组件包装进 <Provider>
+B: 通过 react-redux 提供的 connect() 方法将包装好的组件连接到Redux
+
+C: 定义reducer
+D: 定义action
+正确答案：ABCD
+
+
+28. [填空题(手动判卷)] ( 3 分)
+在react-redux中向组件传递stor使用____________ e
+正确答案： Provider
+
+
+29. [填空题(手动判卷)] ( 3 分)
+React应用中的最小单位是__________，
+正确答案： 元素
+
+
+34. [填空题(手动判卷)] ( 3 分)
+ref 不能设置在____________上, 
+正确答案： 函数创建的组件元素
+
+
+35、action的类型是object
+
+36、connect中第一个参数可以接收到state,返回一个对象，将对象内容添加到props
+
+37、dispatch通过传递action，执行reducer
+
+38、每一个reducer都是纯函数，意为着没有副作用，接收一定的输入，必定得到一定的输出
+
+39、在react中数据是自顶向下单向流动的
+
+40、不推荐开发者滥用state.过多的内部状态会让数据流混乱。程序变得难以维护
+
+41、applyMiddleware是属于下面哪个包抛出的方法  redux
+
+42、[mapStateToProps(state, [ownProps]): stateProps]描述错误的是？
+D、组件接收到新的props，mapStateToProps不会被调用
+
+43、shouldComponentUpdate函数中可以接收到nextProps和nextState
+
+44、connect中第一个参数可以读取redux中state数据
+
+45、reducer本质上是个函数，reducer(previousState,action)=>newState
+
+46、调用setState()时，React会将你提供的对象合并到当前状态
+
+47、react中更新UI的方式有：ReactDOM.render()、this.setState()、使用redux更新数据
+
+48、组件的返回值只能有一个根元素 对
+
+49、react有更新时一定会更新整个dom树 X
+
+50、react路由里面渲染与位置匹配的第一个子元素<Route>或<Redirect>使用Switch
+
+51、react中合成事件，可以是驼峰命名，亦可以是首字母大写 X
+
+52、react有更新时，一定会更新整个dom树，而且无法阻止  X
+
+53、react中高阶组件的创建，必须使用class类  X
+
+12. [多选题] (5分)
+以下属于reducer禁止操作的事情有哪些？
+
+A: 修改传入参数
+B: 执行有副作用的操作，如 API 请求和路由跳转
+C: 调用非纯函数，如 Date.now() 或 Math.random()
+D: 更新state
+正确答案：ABC
+
+
+14. [判断题] (5分)
+<input type='text' defaultValue='hello' onChange={this.handleChange.bind(this)}> 触发handleChange函数，更改value，会触发页面渲染
+
+正确答案： 错 
+
+
+2.[单选题](5分)
+select中通过添加什么属性实现多选下拉列表？
+A: multiple={true}
+B: checkbox
+C: checked={true}
+D: selected
+正确答案： A 
+
+
+3.[单选题](5分)
+非受控组件input可以通过什么来表示组件的默认状态？
+A: defaultValue
+B: props
+C: value
+D: defaultChecked
+正确答案： A 
+
+
+4、组件是将props转化成UI，然而高阶组件将一个组价转化成另外一个组件		：V
+
+
+
+6、在 React 当中 Element 和 Component 描述错误的是？	正确答案：D
+   A:一个 React element 是一些 UI 的对象表示	
+   B:一个 React Component 是一个函数或一个类	
+   C:React Component返回 React element	
+   D:react中 Component和Element没区别
+
+
+3、什么通常被称为局部或封装。 除了拥有并设置它的组件外，其它组件不可访问？正确答案:A	
+   A:state	
+   B:props	
+   C:value	
+   D:defaultValue	
+			
+
+7、修饰器（Decorator）函数描述正确的是？	正确答案：A	
+   A:用来修改类的行为	
+   B:不能修改类的行为	
+   C:用来修改函数	
+   D:用来修改函数的行为		
+
+
+3、在react中给事件绑定this的方法正确的是？	正确答案：ABD	
+        A:<button onClick={this.deleteRow.bind(this, id)}>Delete Row</button>	
+        B:在constructor构造函数中使用 this.deleteRow=this.deleteRow.bind(this)	
+        C:<button onClick={this.deleteRow}>Delete Row</button>	
+        D:<button onClick={(e) => this.deleteRow(e)}>Delete Row</button>		
+	
+
+4、react元素可以是以下什么？	正确答案：ABD	
+        A:dom标签	
+        B:自定义组件	
+        C:class	
+        D:div	
+
+
+5、async函数返回_Promise对象____							
+
+
+6、箭头函数内的this对象指向_定义时所在的对象，而不是使用时所在的对象	___	
+
+
+7、以下给p标签添加自定义属性正确的是？正确答案：	A	
+        A:"ReactDOM.render(
+        　　<div>
+        　　　　<p data-myattribute = ""somevalue"">hello world!</p>
+        　　</div> ,
+        　　document.getElementById('example')
+        )"					
+
+
+8、UI（木偶）组件描述错误的是？	正确答案：D
+        A:只负责 UI 的呈现，不带有任何业务逻辑	
+        B:没有状态（即不使用this.state这个变量）
+        C:所有数据都由参数（this.props）提供	
+        D:使用 Redux 的 API 	
+
+
+9、箭头函数描述错误的是？	正确答案：	A	
+        A:可以使用arguments对象	
+        B:不可以使用arguments对象
+        C:不可以使用new命令	
+        D:函数体内的this指向定义时所在的对象
+
+
+9.  [mapDispatchToProps(dispatch, [ownProps]): dispatchProps]描述错误的是？D
+	A. 接受redux的dispatch方法作为参数
+	B. 返回当前组件相关部分的action creater
+	C. 只要组件接收到新 props，mapDispatchToProps 也会被调用
+	D. 在这里不可以将action creater与dispatch绑定
+
+
+14.  在 React 中 Element 和 Component 描述错误的是？D
+	A. 一个 React element 是一些 UI 的对象表示
+	B. 一个 React Component 是一个函数或一个类
+	C. React Component返回 React element
+	D. 在react中 element返回 component
+
+
+
+15、redux的作用是___管理复杂的页面__
+
+
+2. redux中包含哪些内容？ AB
+	A. action
+	B. reducer
+	C. mutations
+	D. 组件
+
+
+6. 以下对于高阶组件描述正确的是？ABCD
+	A. 高阶组件会给被包裹组件传递所有的属性(props)
+	B. 不要在render函数中使用高阶组件
+	C. 高阶组件是一个函数，能够接受一个组件并返回一个新的组件
+	D. 不要改变原始组件，使用组合
+
+
+9. React中调用setState之后发生了什么事情？ ABCD
+	A.  React会将当前传入的参数对象与组件当前的状态合并
+	B.  React会以相对高效的方式根据新的状态构建React元素树并且重新渲染整个UI界面
+	C.  React得到的元素树之后,React会自动计算出新的树与老的树的节点的差异
+	D.  然后根据差异对界面进行最小化的渲染
+
+
+10、ref可以使用下面哪种方法调用  AB 
+	A、this.refs['refname']
+	B、this.refs.refname
+	C、this.ref
+	D、refs	
+
+
+11、this.refs可以获取通过ref属性定义的dom
+
+12、当组件加载到页面上之后，你可以通过react-dom提供的findDOMNode()方法拿到组件对应的DOM元素
+
+13、对于一个组件来说，render方法是唯一一个必须的方法
+
+14、react中申明props值的类型为string应该 static propTypes={optionalString:PropTypes.string}
+
+15、在react框架中ref的值如果是回调函数的话，name这个回调函数会在render后运行
+
+16、react中的props的值可以是dom元素和js表达式
+
+17、react中路由配置是通过实例化router实例完成配置的  X
+
+18、react中用Route组件来配置路由规则
+
+19、redux中，通过action.type判断Reducer中执行的任务
+

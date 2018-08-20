@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-size:.14rem;
+
+}
+body,html,#root{
+    width: 100%;
+    height: 1005;
+}
+#root>div{
+    width: 100%;
+    height: .8rem;
+    display:flex;
+    align-items: center;
+    padding:0 .1rem;
+    li{
+        font-weight: 800;
+        font-size: .2rem;
+        margin-right:.13rem;
+        &:nth-child(1){
+            
+            font-size:.4rem;
+            color:#1DB326;
+           
+        }
+        &:nth-child(2){
+            margin-left:.3rem;
+            color:#378DE6
+        }
+        &:nth-child(3){
+            color:#9F7862
+        }
+        &:nth-child(4){
+            color:#E4AA34
+        }
+        &:nth-child(5){
+            color:#72CDDB
+        }
+    }
+}

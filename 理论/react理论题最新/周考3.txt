@@ -1,0 +1,244 @@
+1.[单选题]( 2 分)
+下面jsx语法编写正确的是 
+A: <div class="name"></div>
+B: <div classname="name"></div>
+C: <div className="name"></div>
+D: <div ClassName="name"></div>
+正确答案： C
+
+2.[单选题]( 2 分)
+展示组件的创建方式应该使用 
+A: 函数式
+B: class
+C: creatClass
+D: prototype
+正确答案： A
+
+3.[单选题]( 2 分)
+下面那种修改state的方式是正确的 
+A: name="aaa"
+B: this.name="aaa"
+C: this.state.name="aaa"
+D: this.setState({name:'aaa'})
+正确答案： D
+
+4.[单选题]( 2 分)
+在路由对应的组件内部的组件如果要获取 match属性则需要 
+A: withRouter()
+B: history()
+
+C: location()
+D: match()
+正确答案： A
+
+5.[单选题]( 2 分)
+在react中ref的值是函数的话，在组件销毁的时候会给ref函数中传入 
+A: 字符串
+B: null
+C: 对象
+D: 布尔
+正确答案： B
+
+6.[单选题]( 2 分)
+react中应用什么技术保证高速的UI渲染 
+A: 虚拟DOM
+B: 单向数据流
+C: 双向绑定
+D: MVC设计模式
+正确答案： A
+
+7.[单选题]( 2 分)
+ref作用在dom元素上的时候使用refs获取对应的ref返回的是 
+A: 组件对应的dom
+B: 组件对应的实例
+C: dom
+D: 以上都不对
+正确答案： C
+
+8.[单选题]( 2 分)
+在react中列表遍历渲染，通过什么方法可以提高虚拟dom的效率。
+
+A: shouldComponentUpdate
+B: 添加key
+C: DOM
+D: 添加Id
+正确答案： B
+
+9.[单选题]( 2 分)
+在react合成事件中this默认情况下是 
+A: window
+B: dom
+C: null
+D: undefined
+正确答案： D
+
+10.[单选题]( 2 分)
+react中如何实现vue中v-model的效果 
+A: v-model
+B: ng-model
+C: 受控组件
+D: r-model
+正确答案： C
+
+11.[单选题]( 2 分)
+<Redirect>组件是用来干什么的 
+A: 重定向
+B: 跳转新页面
+C: 替换当前页面
+D: 关闭页面
+正确答案： A
+
+12.[单选题]( 2 分)
+Provider组件需要传递什么内容 
+A: state
+B: store
+C: props
+D: context
+正确答案： B
+
+13.[单选题]( 2 分)
+redux中添加中间件需要使用那个方法 
+A: combineReducers
+B: applyMiddleware
+C: bindActionCreators
+D: compose
+正确答案： B 
+14.[单选题]( 2 分)
+下面那个中间件可以用来实现异步action 
+A: redux-thunk
+B: redux-logger
+C: react-logger
+D: react-thunk
+正确答案： A
+
+15.[单选题]( 2 分)
+action中必须存在什么属性 
+A: name
+B: type
+C: age
+D: reducers
+正确答案： B
+
+16. [多选题] ( 3 分)
+下面那些事件是react支持的事件, 
+A: click
+B: onFocus
+C: onChange
+D: tap
+正确答案：BC
+
+17. [多选题] ( 3 分)
+下面那些方法是属于store的方法 
+A: getState()
+B: dispatch(action)
+C: subscribe(listener)
+D: createStore()
+正确答案：ABC
+
+18. [多选题] ( 3 分)
+redux连接到 React我们需要 
+A: 渲染之前将根组件包装进 <Provider>
+B: 通过 react-redux 提供的 connect() 方法将包装好的组件连接到Redux
+
+C: 定义reducer
+D: 定义action
+正确答案：ABCD
+
+19. [多选题] ( 3 分)
+redux的3大原则是 
+A: State 是只读的
+B: 单一数据源
+C: 使用Reducer 来执行修改
+D: 和vuex一样
+正确答案：ABC
+
+20. [多选题] ( 3 分)
+react的优化方法有 
+A: 组件执行 shouldComponentUpdate 方法，自行决定是否更新
+B: 给列表中的组件添加key属性
+C: 使用PureRenderMixin
+D: 组件执行 componentWillReceiveProps 方法，自行决定是否更新
+正确答案：ABC
+
+21. [判断题] ( 2 分)
+必须使用createStore才能创建store 
+正确答案： 对
+
+22. [判断题] ( 2 分)
+react中使用了虚拟dom提高了ui渲染 
+正确答案： 对
+
+23. [判断题] ( 2 分)
+在react中和redux关联的时候必须使用connect函数 知识点：redux 来源：大纲
+正确答案： 对
+试题解析：
+我的答案： 对
+24. [判断题] ( 2 分)
+this.state.name="aaa"可以修改state值，并且触发渲染 
+正确答案： 错
+
+25. [判断题] ( 2 分)
+redux只能使用在react中 
+正确答案： 错
+
+26. [填空题(自动判卷)] ( 3 分)
+在JSX中class元素类名被替换成了____________，
+正确答案： className
+
+27. [填空题(手动判卷)] ( 3 分)
+在jsx中编写js表达式使用___________，
+正确答案： {}
+
+28. [填空题(手动判卷)] ( 3 分)
+在react-redux中向组件传递stor使用____________ e
+正确答案： Provider
+试题解析：
+我的答案： provider
+29. [填空题(手动判卷)] ( 3 分)
+React应用中的最小单位是__________，
+正确答案： 元素
+
+30. [填空题(手动判卷)] ( 3 分)
+在使用class定义的组件中state的声明方式为__________________, , 
+正确答案： this.state = {}
+
+31. [填空题(手动判卷)] ( 3 分)
+每当React使用完一个组件，这个组件必须从 DOM 中卸载后被销毁，此时_________________生命周期会被执行, 
+正确答案： componentWillUnmount
+
+32. [填空题(手动判卷)] ( 3 分)
+redux的数据流是_____________的方式 
+正确答案： 单一数据源
+
+33. [填空题(手动判卷)] ( 3 分)
+修改state的值使用___________ 
+正确答案： setState()
+
+34. [填空题(手动判卷)] ( 3 分)
+ref 不能设置在____________上, 
+正确答案： 函数创建的组件元素
+
+35. [填空题(手动判卷)] ( 3 分)
+值由React控制的表单元素称为_________________ 知
+正确答案： 受控组件
+
+36. [填空题(手动判卷)] ( 3 分)
+当组件加载到页面上之后，你可以通过 _________ 提供的 _________方法拿到组件对应的 DOM 元素。
+正确答案： react-dom, findDOMNode()
+
+37. [填空题(手动判卷)] ( 3 分)
+react合成事件回调函数可以通过__________和_________实现this绑定, 
+正确答案： bind, 箭头函数
+
+38. [填空题(手动判卷)] ( 3 分)
+react中如果添加原生事件应该在________________________生命周期中执行, 
+正确答案： componentDidMount
+
+39. [填空题(手动判卷)] ( 3 分)
+
+在react中最便捷的跨级通信是使用_____________ 
+正确答案： context
+
+40. [填空题(手动判卷)] ( 3 分)
+在select中selected属性是定义被选中状态的，在react受控组件中是根据__________的___________属性控制 
+正确答案： select, value 

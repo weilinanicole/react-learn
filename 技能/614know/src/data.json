@@ -1,0 +1,896 @@
+{
+    "fresh_text": "关注动态已更新",
+    "paging": {
+        "is_end": false,
+        "next": "https://api.zhihu.com/topstory/follow?action=down&session_start_id=1528948138&limit=7&after_id=1528928599000",
+        "previous": "https://api.zhihu.com/topstory/follow?action=pull&before_id=1528948138000&session_start_id=1528948138&limit=7"
+    },
+    "data": [{
+            "count": 2,
+            "uninterest_reasons": [],
+            "target": {
+                "excerpt": "最近做的一个页面，里面有一张配图，就是一桌人在办公室笑得很灿烂的那种。 美国设计师审阅后很严肃地问我，为什么在手机上看最右边的黑人女性被切掉了？ 我说这张图只是一个装饰性的背景而已，屏幕有多宽就显示多少呗。 对方表示：那可不行，一定要有黑人。 我…",
+                "created_time": 1528596719,
+                "preview_type": "expand",
+                "id": 413932615,
+                "is_copyable": true,
+                "author": {
+                    "is_followed": false,
+                    "type": "people",
+                    "name": "Knly Com",
+                    "headline": "程序员",
+                    "url_token": "knly-com",
+                    "user_type": "people",
+                    "url": "https://api.zhihu.com/people/53927c271ee1ed52cb89f85ac85d28d8",
+                    "avatar_url": "https://pic1.zhimg.com/50/b386a95b6fa4820dc25ada0d3f07cb2e_s.jpg",
+                    "is_following": false,
+                    "is_org": false,
+                    "gender": 1,
+                    "badge": [],
+                    "id": "53927c271ee1ed52cb89f85ac85d28d8"
+                },
+                "url": "https://api.zhihu.com/answers/413932615",
+                "comment_permission": "all",
+                "question": {
+                    "author": {
+                        "is_followed": false,
+                        "type": "people",
+                        "name": "BreakTheLoop",
+                        "headline": "",
+                        "url_token": "KingofCosmos",
+                        "user_type": "people",
+                        "url": "https://api.zhihu.com/people/203e0a9e1c4aae8a00072925e0fb3092",
+                        "avatar_url": "https://pic2.zhimg.com/50/v2-445d8993e139fbe31cc5e17e956ad2d7_s.jpg",
+                        "is_following": false,
+                        "is_org": false,
+                        "gender": 1,
+                        "badge": [],
+                        "id": "203e0a9e1c4aae8a00072925e0fb3092"
+                    },
+                    "created": 1466905620,
+                    "url": "https://api.zhihu.com/questions/47845613",
+                    "title": "美国的「黑命贵」是怎样一种情况？",
+                    "excerpt": "",
+                    "answer_count": 82,
+                    "bound_topic_ids": [
+                        170882,
+                        37417,
+                        158403,
+                        173107
+                    ],
+                    "comment_count": 13,
+                    "is_following": false,
+                    "follower_count": 1184,
+                    "type": "question",
+                    "id": 47845613
+                },
+                "updated_time": 1528596719,
+                "comment_count": 88,
+                "voteup_count": 802,
+                "thanks_count": 58,
+                "excerpt_new": "最近做的一个页面，里面有一张配图，就是一桌人在办公室笑得很灿烂的那种。 美国设计师审阅后很严肃地问我，为什么在手机上看最右边的黑人女性被切掉了？ 我说这张图只是一个装饰性的背景而已，屏幕有多宽就显示多少呗。 对方表示：那可不行，一定要有黑人。 我…",
+                "preview_text": "最近做的一个页面，里面有一张配图，就是一桌人在办公室笑得很灿烂的那种。\n美国设计师审阅后很严肃地问我，为什么在手机上看最右边的黑人女性被切掉了？\n我说这张图只是一个装饰性的背景而已，屏幕有多宽就显示多少呗。\n对方表示：那可不行，一定要有黑人。\n我说：那从左边开始切，把那个白人切掉？\n对方：这就没问题了。\n\n对黑人很公平了吧？\n但这页面所有的配图，没有一张亚洲脸。\n滑稽。",
+                "can_comment": {
+                    "status": true,
+                    "reason": ""
+                },
+                "type": "answer",
+                "thumbnail": ""
+            },
+            "action_text": "tombkeeper 和赵劼赞同了回答",
+            "show_actor_time": true,
+            "action_text_tpl": "{}赞同了回答",
+            "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 413932615}",
+            "updated_time": 1528948138,
+            "verb": "MEMBER_VOTEUP_ANSWER",
+            "actors": [{
+                    "is_followed": false,
+                    "type": "people",
+                    "name": "tombkeeper",
+                    "headline": "贝利亚同志，而您又是在说谁呢？",
+                    "url_token": "tombkeeper",
+                    "user_type": "people",
+                    "url": "https://api.zhihu.com/people/7baaf3c00c2c7daeddf8e9ba813af141",
+                    "avatar_url": "https://pic4.zhimg.com/50/63de6e6ec_s.jpg",
+                    "is_following": false,
+                    "is_org": false,
+                    "gender": 1,
+                    "badge": [],
+                    "id": "7baaf3c00c2c7daeddf8e9ba813af141"
+                },
+                {
+                    "is_followed": false,
+                    "type": "people",
+                    "name": "赵劼",
+                    "headline": "知乎“温赵轮”三大软狗之一。",
+                    "url_token": "jeffz",
+                    "user_type": "people",
+                    "url": "https://api.zhihu.com/people/78e3b98074a915b222ae1be4ab038a6e",
+                    "avatar_url": "https://pic4.zhimg.com/50/da8e974dc_s.jpg",
+                    "is_following": false,
+                    "is_org": false,
+                    "gender": 1,
+                    "badge": [],
+                    "id": "78e3b98074a915b222ae1be4ab038a6e"
+                }
+            ],
+            "attached_info": "CoYBCKCK7oLmkJ35JhAEGgkxMDUzMzAzMjUg75Hy2AUoogYwWEAAShAKAU0SBzEzOTEyOTkYACAASg0KAU0SBDQxMjIYACAAUhRtZW1iZXJfdm90ZXVwX2Fuc3dlcloIMTEzNTMzNDRyCTQxMzkzMjYxNXgAigEINDc4NDU2MTOqAQZmb2xsb3c=",
+            "offset": 0,
+            "created_time": 1528948138,
+            "type": "feed",
+            "id": "0_1528948741.38"
+        },
+        {
+            "count": 1,
+            "uninterest_reasons": [{
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19684455",
+                    "reason_text": "女神",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19556353",
+                    "reason_text": "大学",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19590285",
+                    "reason_text": "追求女孩",
+                    "object_type": "topic"
+                }
+            ],
+            "target": {
+                "excerpt": "90年代末，她师范院校毕业到我们厂子弟学校任教，美丽纯真，跟邱淑贞很像，气质超群。我在厂里保卫科，刚转业回来精力旺盛，是大家眼里的棒小伙儿。我以前在部队演习遇到事故伤了头，头上有一大块有疤没有头发，有点自卑，转业后每天戴着帽子。 她是厂里男青年…",
+                "created_time": 1526635437,
+                "preview_type": "default",
+                "id": 395007156,
+                "is_copyable": false,
+                "author": {
+                    "headline": "",
+                    "avatar_url": "https://pic4.zhimg.com/aadd7b895_s.jpg",
+                    "name": "匿名用户",
+                    "url": "",
+                    "url_token": "",
+                    "type": "people",
+                    "user_type": "people",
+                    "id": "0"
+                },
+                "url": "https://api.zhihu.com/answers/395007156",
+                "comment_permission": "all",
+                "question": {
+                    "author": {
+                        "is_followed": false,
+                        "type": "people",
+                        "name": "NewYoung",
+                        "headline": "幻想师",
+                        "url_token": "newyoung-32-44",
+                        "user_type": "people",
+                        "url": "https://api.zhihu.com/people/5f304b92c99de1273ef0ae77e40dd964",
+                        "avatar_url": "https://pic2.zhimg.com/50/v2-4c6ebf176f6df2778ba0abb1e4674e74_s.jpg",
+                        "is_following": false,
+                        "is_org": false,
+                        "gender": 1,
+                        "badge": [],
+                        "id": "5f304b92c99de1273ef0ae77e40dd964"
+                    },
+                    "created": 1524147936,
+                    "url": "https://api.zhihu.com/questions/273943837",
+                    "title": "大学时期你日思夜想的那个女神她现在怎样了？",
+                    "excerpt": "镜像问题：https://www.zhihu.com/question/279555673",
+                    "answer_count": 1378,
+                    "bound_topic_ids": [
+                        13333,
+                        2029,
+                        44869
+                    ],
+                    "comment_count": 32,
+                    "is_following": false,
+                    "follower_count": 7007,
+                    "type": "question",
+                    "id": 273943837
+                },
+                "updated_time": 1527233669,
+                "comment_count": 590,
+                "voteup_count": 5934,
+                "thanks_count": 339,
+                "excerpt_new": "90年代末，她师范院校毕业到我们厂子弟学校任教，美丽纯真，跟邱淑贞很像，气质超群。我在厂里保卫科，刚转业回来精力旺盛，是大家眼里的棒小伙儿。我以前在部队演习遇到事故伤了头，头上有一大块有疤没有头发，有点自卑，转业后每天戴着帽子。 她是厂里男青年…",
+                "preview_text": "",
+                "can_comment": {
+                    "status": true,
+                    "reason": ""
+                },
+                "type": "answer",
+                "thumbnail": ""
+            },
+            "action_text": "赵劼赞同了回答",
+            "show_actor_time": true,
+            "action_text_tpl": "{}赞同了回答",
+            "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 395007156}",
+            "updated_time": 1528941341,
+            "verb": "MEMBER_VOTEUP_ANSWER",
+            "actors": [{
+                "is_followed": false,
+                "type": "people",
+                "name": "赵劼",
+                "headline": "知乎“温赵轮”三大软狗之一。",
+                "url_token": "jeffz",
+                "user_type": "people",
+                "url": "https://api.zhihu.com/people/78e3b98074a915b222ae1be4ab038a6e",
+                "avatar_url": "https://pic4.zhimg.com/50/da8e974dc_s.jpg",
+                "is_following": false,
+                "is_org": false,
+                "gender": 1,
+                "badge": [],
+                "id": "78e3b98074a915b222ae1be4ab038a6e"
+            }],
+            "attached_info": "CnYIoIruguaQnfkmEAQaCTEwMTg4OTI0NCCtt/rXBSiuLjDOBEABSg0KAU0SBDQxMjIYACAAUhRtZW1iZXJfdm90ZXVwX2Fuc3dlcloIMjMxNTE2NjdyCTM5NTAwNzE1NngAigEJMjczOTQzODM3qgEGZm9sbG93",
+            "offset": 1,
+            "created_time": 1528941341,
+            "type": "feed",
+            "id": "1_1528948741.38"
+        },
+        {
+            "count": 1,
+            "uninterest_reasons": [{
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19551861",
+                    "reason_text": "钢琴",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19551864",
+                    "reason_text": "古典音乐",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19934934",
+                    "reason_text": "钢琴学习",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19635170",
+                    "reason_text": "钢琴曲",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "creator",
+                    "reason_id": 2,
+                    "object_token": "da3bce2e4d13c483388f6761760ff7b9",
+                    "reason_text": "pianofanie 创作的内容",
+                    "object_type": "people"
+                }
+            ],
+            "target": {
+                "excerpt": "前面回答很多了，我来说一首具体的曲子吧。 大家都知道有一本钢琴初级教材叫做《小奏鸣曲集》： 其中有一首巴赫的《前奏曲》（虽然这首不是小奏鸣曲）： 弹奏起来很容易，大约也就2到3级水平吧。 直到有一天找到了这些资料： 看到最后我是一脸懵逼的，不知道该…",
+                "created_time": 1521460870,
+                "preview_type": "default",
+                "id": 345585187,
+                "is_copyable": false,
+                "author": {
+                    "is_followed": false,
+                    "type": "people",
+                    "name": "pianofanie",
+                    "headline": "专业找中央C/资深钢琴教师",
+                    "url_token": "pianofanie",
+                    "user_type": "people",
+                    "url": "https://api.zhihu.com/people/da3bce2e4d13c483388f6761760ff7b9",
+                    "avatar_url": "https://pic4.zhimg.com/50/v2-4bcf8b1a09480ffe1375066d8783e49b_s.jpg",
+                    "is_following": false,
+                    "is_org": false,
+                    "gender": 1,
+                    "badge": [],
+                    "id": "da3bce2e4d13c483388f6761760ff7b9"
+                },
+                "url": "https://api.zhihu.com/answers/345585187",
+                "comment_permission": "all",
+                "question": {
+                    "author": {
+                        "is_followed": false,
+                        "type": "people",
+                        "name": "gunsroses",
+                        "headline": "古典音乐、科幻小说、历史",
+                        "url_token": "gunsroses80",
+                        "user_type": "people",
+                        "url": "https://api.zhihu.com/people/a02e16597099d0d6563fe7b8dde16af0",
+                        "avatar_url": "https://pic4.zhimg.com/50/v2-5da8698cbffabfd20b800d99e549a14f_s.jpg",
+                        "is_following": false,
+                        "is_org": false,
+                        "gender": 1,
+                        "badge": [],
+                        "id": "a02e16597099d0d6563fe7b8dde16af0"
+                    },
+                    "created": 1521422151,
+                    "url": "https://api.zhihu.com/questions/269069976",
+                    "title": "有什么钢琴曲是不懂钢琴的人觉得不以为然，而学钢琴的人觉得很牛逼的？",
+                    "excerpt": "镜像问题：有什么钢琴曲是不懂钢琴的人觉得很牛逼，而学钢琴的人不以为然的？",
+                    "answer_count": 120,
+                    "bound_topic_ids": [
+                        28418,
+                        130332,
+                        551,
+                        549
+                    ],
+                    "comment_count": 5,
+                    "is_following": false,
+                    "follower_count": 827,
+                    "type": "question",
+                    "id": 269069976
+                },
+                "updated_time": 1521469158,
+                "comment_count": 60,
+                "voteup_count": 329,
+                "thanks_count": 26,
+                "excerpt_new": "前面回答很多了，我来说一首具体的曲子吧。 大家都知道有一本钢琴初级教材叫做《小奏鸣曲集》： 其中有一首巴赫的《前奏曲》（虽然这首不是小奏鸣曲）： 弹奏起来很容易，大约也就2到3级水平吧。 直到有一天找到了这些资料： 看到最后我是一脸懵逼的，不知道该…",
+                "preview_text": "",
+                "can_comment": {
+                    "status": true,
+                    "reason": ""
+                },
+                "type": "answer",
+                "thumbnail": "https://pic3.zhimg.com/50/v2-cffad93e3de421a2f73ef6a73a5da14e_bh.jpg"
+            },
+            "action_text": "赵劼赞同了回答",
+            "show_actor_time": true,
+            "action_text_tpl": "{}赞同了回答",
+            "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 345585187}",
+            "updated_time": 1528941130,
+            "verb": "MEMBER_VOTEUP_ANSWER",
+            "actors": [{
+                "is_followed": false,
+                "type": "people",
+                "name": "赵劼",
+                "headline": "知乎“温赵轮”三大软狗之一。",
+                "url_token": "jeffz",
+                "user_type": "people",
+                "url": "https://api.zhihu.com/people/78e3b98074a915b222ae1be4ab038a6e",
+                "avatar_url": "https://pic4.zhimg.com/50/da8e974dc_s.jpg",
+                "is_following": false,
+                "is_org": false,
+                "gender": 1,
+                "badge": [],
+                "id": "78e3b98074a915b222ae1be4ab038a6e"
+            }],
+            "attached_info": "CrsBCKCK7oLmkJ35JhAEGgg5Mjg5NDY4NiCGzb7VBSjJAjA8QAJKDQoBTRIENDEyMhgAIABSFG1lbWJlcl92b3RldXBfYW5zd2VyWggyMjA2MjAyMHIJMzQ1NTg1MTg3eACCAURodHRwczovL3BpYzMuemhpbWcuY29tLzUwL3YyLWNmZmFkOTNlM2RlNDIxYTJmNzNlZjZhNzNhNWRhMTRlX2JoLmpwZ4oBCTI2OTA2OTk3NqoBBmZvbGxvdw==",
+            "offset": 2,
+            "created_time": 1528941130,
+            "type": "feed",
+            "id": "2_1528948741.38"
+        },
+        {
+            "count": 1,
+            "uninterest_reasons": [{
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19604546",
+                    "reason_text": "龙",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19563376",
+                    "reason_text": "传统文化",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19612637",
+                    "reason_text": "科学",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19812101",
+                    "reason_text": "生物",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "creator",
+                    "reason_id": 2,
+                    "object_token": "803272dd268cc8c80a7eb69f1ec36fb7",
+                    "reason_text": "江涛创作的内容",
+                    "object_type": "people"
+                }
+            ],
+            "target": {
+                "excerpt": "我来摘录一下D&D当中关于龙的一些描述，让大家看看玩跑团的死宅们开脑洞的能力。 以下内容均出自于钛豌豆翻译的4E《巨龙之书》-彩色龙 4e《巨龙之书》 第一章：龙类知识 不要跑到龙和他的怒火之间。 ——威廉·莎士比亚 用于描述龙的文字几乎比用在任何其它生物…",
+                "created_time": 1421196319,
+                "preview_type": "default",
+                "id": 37191881,
+                "is_copyable": true,
+                "author": {
+                    "is_followed": false,
+                    "type": "people",
+                    "name": "江涛",
+                    "headline": "什么都不懂",
+                    "url_token": "jiang-tao-84",
+                    "user_type": "people",
+                    "url": "https://api.zhihu.com/people/803272dd268cc8c80a7eb69f1ec36fb7",
+                    "avatar_url": "https://pic4.zhimg.com/50/dfa61668e_s.jpg",
+                    "is_following": false,
+                    "is_org": false,
+                    "gender": 1,
+                    "badge": [],
+                    "id": "803272dd268cc8c80a7eb69f1ec36fb7"
+                },
+                "url": "https://api.zhihu.com/answers/37191881",
+                "comment_permission": "all",
+                "question": {
+                    "author": {
+                        "is_followed": false,
+                        "type": "people",
+                        "name": "indrasujki",
+                        "headline": "",
+                        "url_token": "indrasujki",
+                        "user_type": "people",
+                        "url": "https://api.zhihu.com/people/a95367eaa1f77ee16aeb39f65e5a2b16",
+                        "avatar_url": "https://pic4.zhimg.com/50/0b0a973a2d6470e3122aa0d8012cf52e_s.jpg",
+                        "is_following": false,
+                        "is_org": false,
+                        "gender": 1,
+                        "badge": [],
+                        "id": "a95367eaa1f77ee16aeb39f65e5a2b16"
+                    },
+                    "created": 1420686901,
+                    "url": "https://api.zhihu.com/questions/27466830",
+                    "title": "龙的生理结构是什么样的？",
+                    "excerpt": "东方西方都可以。 --- 谢谢大家的答案，不好意思我没说清楚。标签里之所以添加了热力学和物理学是因为非常好奇龙既然能喷火，生理上就需要有能产生火的地方，又要能吃东西，我们碳基生物应该是龙的能量来源，但如果龙体内总是高温状态，吃下去我们会不会不能吸收？所以龙体内需要是什么生理构成的才能既耐热又隔热？需不需要体内有一个核反应堆才能产生如此巨大的热量？ --- 另外一点是龙的体型。东方龙好像可以变大变小还可以变人，所以如果说是能量体的话非常靠谱，而西方的龙是卵生，有像权力的游戏里面和成人差不多大小甚至更小的龙，也有霍比特人里面翼展几十米的Smaug。这样看的话西方的龙好像比东方的要更科学一点呢！不过现存生物里面同类之间体型差异好像没有龙那么大，差太多就会有生殖隔离了吧。。。 作为一个知乎小透明看到问题有这么多人关注（你够！）还有点小激动呢！非常感谢小伙伴们的回答！大家一起开着脑洞愉快的玩耍吧！ 相关问题：龙真实存在的物理，生物合理性解释？ - 生物学",
+                    "answer_count": 137,
+                    "bound_topic_ids": [
+                        89475,
+                        20858,
+                        4369,
+                        18150,
+                        307
+                    ],
+                    "comment_count": 21,
+                    "is_following": false,
+                    "follower_count": 4186,
+                    "type": "question",
+                    "id": 27466830
+                },
+                "updated_time": 1421196514,
+                "comment_count": 13,
+                "voteup_count": 92,
+                "thanks_count": 34,
+                "excerpt_new": "我来摘录一下D&D当中关于龙的一些描述，让大家看看玩跑团的死宅们开脑洞的能力。 以下内容均出自于钛豌豆翻译的4E《巨龙之书》-彩色龙 4e《巨龙之书》 第一章：龙类知识 不要跑到龙和他的怒火之间。 ——威廉·莎士比亚 用于描述龙的文字几乎比用在任何其它生物…",
+                "preview_text": "",
+                "can_comment": {
+                    "status": true,
+                    "reason": ""
+                },
+                "type": "answer",
+                "thumbnail": ""
+            },
+            "action_text": "陈萌萌赞同了回答",
+            "show_actor_time": true,
+            "action_text_tpl": "{}赞同了回答",
+            "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 37191881}",
+            "updated_time": 1528940436,
+            "verb": "MEMBER_VOTEUP_ANSWER",
+            "actors": [{
+                "is_followed": false,
+                "type": "people",
+                "name": "陈萌萌",
+                "headline": "AI，赞美太阳，这火我不传。",
+                "url_token": "jjmoe",
+                "user_type": "people",
+                "url": "https://api.zhihu.com/people/1c7f429366f5db6b3cf05e2b6eaac0a9",
+                "avatar_url": "https://pic1.zhimg.com/50/v2-99c5e4c4e78be345907ea285baa304ab_s.jpg",
+                "is_following": false,
+                "is_org": false,
+                "gender": 0,
+                "badge": [],
+                "id": "1c7f429366f5db6b3cf05e2b6eaac0a9"
+            }],
+            "attached_info": "CnMIoIruguaQnfkmEAQaCDEwMjY3MzkwIJ/41qUFKFwwDUADShAKAU0SBzEyMzE5NzEYACAAUhRtZW1iZXJfdm90ZXVwX2Fuc3dlcloHMzE2OTYyOHIIMzcxOTE4ODF4AIoBCDI3NDY2ODMwqgEGZm9sbG93",
+            "offset": 3,
+            "created_time": 1528940436,
+            "type": "feed",
+            "id": "3_1528948741.38"
+        },
+        {
+            "count": 1,
+            "uninterest_reasons": [{
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19551147",
+                    "reason_text": "生活",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19612637",
+                    "reason_text": "科学",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19563376",
+                    "reason_text": "传统文化",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19604546",
+                    "reason_text": "龙",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "creator",
+                    "reason_id": 2,
+                    "object_token": "789098323cce9ff1782f37e9719313b9",
+                    "reason_text": "赵思家创作的内容",
+                    "object_type": "people"
+                }
+            ],
+            "target": {
+                "excerpt": "哟呵，谢邀。让我来一本正经胡说八道一番。 1. 总的来说，龙的生理结构应该和蜥蜴相似，特别是西方的龙。但东方的龙，如东海龙王神马的，又是常驻海底...嗯... 肯定得给他找个能在水底呼吸的器官呢。而且它们还会变身。变身又是怎么在短时间内变的呢？这个问题…",
+                "created_time": 1420822624,
+                "preview_type": "default",
+                "id": 36884782,
+                "is_copyable": false,
+                "author": {
+                    "is_followed": false,
+                    "type": "people",
+                    "name": "赵思家",
+                    "headline": "UCL神经科学本科、计算机硕士、博士在读",
+                    "url_token": "sijiazhao",
+                    "user_type": "people",
+                    "url": "https://api.zhihu.com/people/789098323cce9ff1782f37e9719313b9",
+                    "avatar_url": "https://pic3.zhimg.com/50/35603b3f94319b308d28b600fa5e25c3_s.jpg",
+                    "is_following": false,
+                    "is_org": false,
+                    "gender": 0,
+                    "badge": [{
+                            "type": "identity",
+                            "description": "伦敦大学学院 神经科学博士在读"
+                        },
+                        {
+                            "topics": [],
+                            "type": "best_answerer",
+                            "description": "优秀回答者"
+                        }
+                    ],
+                    "id": "789098323cce9ff1782f37e9719313b9"
+                },
+                "url": "https://api.zhihu.com/answers/36884782",
+                "comment_permission": "all",
+                "question": {
+                    "author": {
+                        "is_followed": false,
+                        "type": "people",
+                        "name": "indrasujki",
+                        "headline": "",
+                        "url_token": "indrasujki",
+                        "user_type": "people",
+                        "url": "https://api.zhihu.com/people/a95367eaa1f77ee16aeb39f65e5a2b16",
+                        "avatar_url": "https://pic4.zhimg.com/50/0b0a973a2d6470e3122aa0d8012cf52e_s.jpg",
+                        "is_following": false,
+                        "is_org": false,
+                        "gender": 1,
+                        "badge": [],
+                        "id": "a95367eaa1f77ee16aeb39f65e5a2b16"
+                    },
+                    "created": 1420686901,
+                    "url": "https://api.zhihu.com/questions/27466830",
+                    "title": "龙的生理结构是什么样的？",
+                    "excerpt": "东方西方都可以。 --- 谢谢大家的答案，不好意思我没说清楚。标签里之所以添加了热力学和物理学是因为非常好奇龙既然能喷火，生理上就需要有能产生火的地方，又要能吃东西，我们碳基生物应该是龙的能量来源，但如果龙体内总是高温状态，吃下去我们会不会不能吸收？所以龙体内需要是什么生理构成的才能既耐热又隔热？需不需要体内有一个核反应堆才能产生如此巨大的热量？ --- 另外一点是龙的体型。东方龙好像可以变大变小还可以变人，所以如果说是能量体的话非常靠谱，而西方的龙是卵生，有像权力的游戏里面和成人差不多大小甚至更小的龙，也有霍比特人里面翼展几十米的Smaug。这样看的话西方的龙好像比东方的要更科学一点呢！不过现存生物里面同类之间体型差异好像没有龙那么大，差太多就会有生殖隔离了吧。。。 作为一个知乎小透明看到问题有这么多人关注（你够！）还有点小激动呢！非常感谢小伙伴们的回答！大家一起开着脑洞愉快的玩耍吧！ 相关问题：龙真实存在的物理，生物合理性解释？ - 生物学",
+                    "answer_count": 137,
+                    "bound_topic_ids": [
+                        89475,
+                        20858,
+                        4369,
+                        18150,
+                        307
+                    ],
+                    "comment_count": 21,
+                    "is_following": false,
+                    "follower_count": 4186,
+                    "type": "question",
+                    "id": 27466830
+                },
+                "updated_time": 1477991631,
+                "comment_count": 338,
+                "voteup_count": 3525,
+                "thanks_count": 1140,
+                "excerpt_new": "哟呵，谢邀。让我来一本正经胡说八道一番。 1. 总的来说，龙的生理结构应该和蜥蜴相似，特别是西方的龙。但东方的龙，如东海龙王神马的，又是常驻海底...嗯... 肯定得给他找个能在水底呼吸的器官呢。而且它们还会变身。变身又是怎么在短时间内变的呢？这个问题…",
+                "preview_text": "",
+                "can_comment": {
+                    "status": true,
+                    "reason": ""
+                },
+                "type": "answer",
+                "thumbnail": "https://pic3.zhimg.com/50/42286f6b09eb5cc9fd20be7f9c5cee77_bh.jpg"
+            },
+            "action_text": "陈萌萌赞同了回答",
+            "show_actor_time": true,
+            "action_text_tpl": "{}赞同了回答",
+            "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 36884782}",
+            "updated_time": 1528939628,
+            "verb": "MEMBER_VOTEUP_ANSWER",
+            "actors": [{
+                "is_followed": false,
+                "type": "people",
+                "name": "陈萌萌",
+                "headline": "AI，赞美太阳，这火我不传。",
+                "url_token": "jjmoe",
+                "user_type": "people",
+                "url": "https://api.zhihu.com/people/1c7f429366f5db6b3cf05e2b6eaac0a9",
+                "avatar_url": "https://pic1.zhimg.com/50/v2-99c5e4c4e78be345907ea285baa304ab_s.jpg",
+                "is_following": false,
+                "is_org": false,
+                "gender": 0,
+                "badge": [],
+                "id": "1c7f429366f5db6b3cf05e2b6eaac0a9"
+            }],
+            "attached_info": "CrkBCKCK7oLmkJ35JhAEGggxMDE0NDQwNCDgkMClBSjFGzDSAkAEShAKAU0SBzEyMzE5NzEYACAAUhRtZW1iZXJfdm90ZXVwX2Fuc3dlcloHMzE2OTYyOHIIMzY4ODQ3ODJ4AIIBQWh0dHBzOi8vcGljMy56aGltZy5jb20vNTAvNDIyODZmNmIwOWViNWNjOWZkMjBiZTdmOWM1Y2VlNzdfYmguanBnigEIMjc0NjY4MzCqAQZmb2xsb3c=",
+            "offset": 4,
+            "created_time": 1528939628,
+            "type": "feed",
+            "id": "4_1528948741.38"
+        },
+        {
+            "count": 1,
+            "uninterest_reasons": [{
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19559604",
+                    "reason_text": "笔记本电脑",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "creator",
+                    "reason_id": 2,
+                    "object_token": "0970f947b898ecc0ec035f9126dd4e08",
+                    "reason_text": "vczh 创作的内容",
+                    "object_type": "people"
+                }
+            ],
+            "target": {
+                "excerpt": "苹果又不给组台式机，系统对新硬件支持懒得一笔，怎么选。",
+                "created_time": 1528928975,
+                "preview_type": "no_expand",
+                "id": 417083662,
+                "is_copyable": true,
+                "author": {
+                    "is_followed": false,
+                    "type": "people",
+                    "name": "vczh",
+                    "headline": "专业造轮子，拉黑抢前排。gaclib.net",
+                    "url_token": "excited-vczh",
+                    "user_type": "people",
+                    "url": "https://api.zhihu.com/people/0970f947b898ecc0ec035f9126dd4e08",
+                    "avatar_url": "https://pic3.zhimg.com/50/v2-1bea18837914ab5a40537d515ed3219c_s.jpg",
+                    "is_following": false,
+                    "is_org": false,
+                    "gender": 1,
+                    "badge": [],
+                    "id": "0970f947b898ecc0ec035f9126dd4e08"
+                },
+                "url": "https://api.zhihu.com/answers/417083662",
+                "comment_permission": "all",
+                "question": {
+                    "author": {
+                        "is_followed": false,
+                        "type": "people",
+                        "name": "刘二懵儿",
+                        "headline": "",
+                        "url_token": "liu-er-meng-er",
+                        "user_type": "people",
+                        "url": "https://api.zhihu.com/people/320b59260333a64b81a3f3469cb85c7e",
+                        "avatar_url": "https://pic3.zhimg.com/50/v2-89f6e3d7a2077beac044c03b461da642_s.jpg",
+                        "is_following": false,
+                        "is_org": false,
+                        "gender": 1,
+                        "badge": [],
+                        "id": "320b59260333a64b81a3f3469cb85c7e"
+                    },
+                    "created": 1528256979,
+                    "url": "https://api.zhihu.com/questions/279980925",
+                    "title": "是不是真的懂电脑的反而不会选苹果？",
+                    "excerpt": "电脑",
+                    "answer_count": 158,
+                    "bound_topic_ids": [
+                        3132
+                    ],
+                    "comment_count": 9,
+                    "is_following": false,
+                    "follower_count": 213,
+                    "type": "question",
+                    "id": 279980925
+                },
+                "updated_time": 1528928975,
+                "comment_count": 22,
+                "voteup_count": 55,
+                "thanks_count": 3,
+                "excerpt_new": "苹果又不给组台式机，系统对新硬件支持懒得一笔，怎么选。",
+                "preview_text": "",
+                "can_comment": {
+                    "status": true,
+                    "reason": ""
+                },
+                "type": "answer",
+                "thumbnail": ""
+            },
+            "action_text": "vczh 回答了问题",
+            "show_actor_time": true,
+            "action_text_tpl": "{}回答了问题",
+            "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 417083662}",
+            "updated_time": 1528928975,
+            "verb": "MEMBER_ANSWER_QUESTION",
+            "actors": [{
+                "is_followed": false,
+                "type": "people",
+                "name": "vczh",
+                "headline": "专业造轮子，拉黑抢前排。gaclib.net",
+                "url_token": "excited-vczh",
+                "user_type": "people",
+                "url": "https://api.zhihu.com/people/0970f947b898ecc0ec035f9126dd4e08",
+                "avatar_url": "https://pic3.zhimg.com/50/v2-1bea18837914ab5a40537d515ed3219c_s.jpg",
+                "is_following": false,
+                "is_org": false,
+                "gender": 1,
+                "badge": [],
+                "id": "0970f947b898ecc0ec035f9126dd4e08"
+            }],
+            "attached_info": "CncIoIruguaQnfkmEAQaCTEwNTkwMjk4MSDPtYbZBSg3MBZABUoOCgFNEgU2NjE1NxgAIABSFm1lbWJlcl9hbnN3ZXJfcXVlc3Rpb25aCDI0NDkzOTYxcgk0MTcwODM2NjJ4AIoBCTI3OTk4MDkyNaoBBmZvbGxvdw==",
+            "offset": 5,
+            "created_time": 1528928975,
+            "type": "feed",
+            "id": "5_1528948741.38"
+        },
+        {
+            "count": 1,
+            "uninterest_reasons": [{
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19652227",
+                    "reason_text": "校园暴力",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19568143",
+                    "reason_text": "心理健康",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19614902",
+                    "reason_text": "教师",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "topic",
+                    "reason_id": 3,
+                    "object_token": "19554945",
+                    "reason_text": "心理",
+                    "object_type": "topic"
+                },
+                {
+                    "reason_type": "creator",
+                    "reason_id": 2,
+                    "object_token": "c7b2b90ca4ff00b60040a9b53859cd98",
+                    "reason_text": "sylar 创作的内容",
+                    "object_type": "people"
+                }
+            ],
+            "target": {
+                "excerpt": "我老师毁了，我的化学生涯！！！ 我高中的时候化学很好。 然后因为这个优点。 我大学准备报化学专业。 填志愿的时候。 我的化学老师！！！ 他当着我的面，说了一句。 你根本不是搞化学的料。 我看你小子，天天喜欢搞点小钱。 就报金融专业吧。 我刚上大学的时候…",
+                "created_time": 1521187828,
+                "preview_type": "default",
+                "id": 343081353,
+                "is_copyable": true,
+                "author": {
+                    "is_followed": false,
+                    "type": "people",
+                    "name": "sylar",
+                    "headline": "希望业务时间，做点IT教育。有事值乎，私信不回。微信公众号：数据分析互助",
+                    "url_token": "li-jian-bang-36",
+                    "user_type": "people",
+                    "url": "https://api.zhihu.com/people/c7b2b90ca4ff00b60040a9b53859cd98",
+                    "avatar_url": "https://pic3.zhimg.com/50/v2-b5267385c0b25c9a12a1c9125eb12d4c_s.jpg",
+                    "is_following": false,
+                    "is_org": false,
+                    "gender": 1,
+                    "badge": [],
+                    "id": "c7b2b90ca4ff00b60040a9b53859cd98"
+                },
+                "url": "https://api.zhihu.com/answers/343081353",
+                "comment_permission": "all",
+                "question": {
+                    "author": {
+                        "is_followed": false,
+                        "type": "people",
+                        "name": "意中人",
+                        "headline": "一只很笨很笨的鸟",
+                        "url_token": "yi-zhong-ren-92-99",
+                        "user_type": "people",
+                        "url": "https://api.zhihu.com/people/c1ac26d322a4fdd7b4c63ed2a958d4b0",
+                        "avatar_url": "https://pic3.zhimg.com/50/v2-67fe195ac15ef7e4581698feda1f91b3_s.jpg",
+                        "is_following": false,
+                        "is_org": false,
+                        "gender": 0,
+                        "badge": [],
+                        "id": "c1ac26d322a4fdd7b4c63ed2a958d4b0"
+                    },
+                    "created": 1492921406,
+                    "url": "https://api.zhihu.com/questions/58889974",
+                    "title": "一个老师如何轻易毁掉学生的一生？",
+                    "excerpt": "",
+                    "answer_count": 1595,
+                    "bound_topic_ids": [
+                        1576,
+                        21612,
+                        5993,
+                        34095,
+                        5619
+                    ],
+                    "comment_count": 15,
+                    "is_following": false,
+                    "follower_count": 4410,
+                    "type": "question",
+                    "id": 58889974
+                },
+                "updated_time": 1524282855,
+                "comment_count": 1429,
+                "voteup_count": 13199,
+                "thanks_count": 620,
+                "excerpt_new": "我老师毁了，我的化学生涯！！！ 我高中的时候化学很好。 然后因为这个优点。 我大学准备报化学专业。 填志愿的时候。 我的化学老师！！！ 他当着我的面，说了一句。 你根本不是搞化学的料。 我看你小子，天天喜欢搞点小钱。 就报金融专业吧。 我刚上大学的时候…",
+                "preview_text": "",
+                "can_comment": {
+                    "status": true,
+                    "reason": ""
+                },
+                "type": "answer",
+                "thumbnail": ""
+            },
+            "action_text": "赵劼赞同了回答",
+            "show_actor_time": true,
+            "action_text_tpl": "{}赞同了回答",
+            "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 343081353}",
+            "updated_time": 1528928599,
+            "verb": "MEMBER_VOTEUP_ANSWER",
+            "actors": [{
+                "is_followed": false,
+                "type": "people",
+                "name": "赵劼",
+                "headline": "知乎“温赵轮”三大软狗之一。",
+                "url_token": "jeffz",
+                "user_type": "people",
+                "url": "https://api.zhihu.com/people/78e3b98074a915b222ae1be4ab038a6e",
+                "avatar_url": "https://pic4.zhimg.com/50/da8e974dc_s.jpg",
+                "is_following": false,
+                "is_org": false,
+                "gender": 1,
+                "badge": [],
+                "id": "78e3b98074a915b222ae1be4ab038a6e"
+            }],
+            "attached_info": "CnQIoIruguaQnfkmEAQaCDkyNDM5Nzg0IPT3rdUFKI9nMJULQAZKDQoBTRIENDEyMhgAIABSFG1lbWJlcl92b3RldXBfYW5zd2VyWggxNTc3NzgxOXIJMzQzMDgxMzUzeACKAQg1ODg4OTk3NKoBBmZvbGxvdw==",
+            "offset": 6,
+            "created_time": 1528928599,
+            "type": "feed",
+            "id": "6_1528948741.38"
+        }
+    ]
+}

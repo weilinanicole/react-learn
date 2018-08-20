@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-size:.14rem;
+}
+body,html,#root,.wrap{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+.head,.foot{
+    height: .7rem;
+    border-bottom:1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 .1rem;
+}
+.foot{
+    border-top:1px solid #ccc;
+    background:#eee;
+}
+.body{
+    flex:1;
+    overflow-y:auto;
+}
+.box{
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid #ccc;
+    padding:.1rem;
+    img{
+        width: .8rem;
+        height: .8rem;
+        margin:0 .2rem;
+    }
+    ul{
+        li{
+            &:nth-child(1){
+                font-size: .24rem;
+            }
+            &:nth-child(2){
+                line-height: 3;
+            }
+        }
+    }
+    ol{
+        margin-left:.4rem;
+        span{
+            border:1px solid pink;
+            display:inline-block;
+            border-radius:50%;
+            width: .24rem;
+            height: .24rem;
+            line-height: .24rem;
+            text-align: center;
+            margin:0 .05rem;
+        }
+        em{
+            font-style: normal;
+        }
+    }
+}
+.select{
+    width: 100%;
+    height: .4rem;
+    border-top:1px solid #ccc;
+    padding: 0.1rem;
+    background:#eee;
+    display: flex;
+    align-items: center;
+}
+.detail{
+    width: 100%;
+    display: flex;
+    img{
+        width: .8rem;
+        height: .8rem;
+        margin:0 .2rem;
+    }
+    ul{
+        li{
+            &:nth-child(1){
+                font-size: .24rem;
+            }
+            &:nth-child(2){
+                line-height: 3;
+            }
+        }
+    }
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    left:0;
+    top:0;
+    background:rgba(0,0,0,0.5);
+    .login{
+        background:#fff;
+        padding:.3rem;
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate3d(-50%,-50%,0);
+        li{
+            height: .5rem;
+            margin-top:.1rem;
+            input{
+                border:none;
+                outline:none;
+                border-bottom:1px solid #ccc;
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+1ref不能作用到什么组件上 
+A: 函数式组件
+B: class组件
+C: dom元素
+D: creatClass组件
+正确答案： A
+
+2.在class创建的组件上定义props类型使用 
+A: static defaultProps = {}
+B: static propTypes = {}
+C: state
+D: data
+正确答案： B
+
+3.在react指定只传递一个子代 
+A: PropTypes.element.isRequired
+B: PropTypes.any.isRequired
+C: PropTypes.func.isRequired
+D: PropTypes.element
+正确答案： A
+
+4.验证器的类型来自于那个模块 
+A: types
+B: prop
+C: prop-types
+D: 以上都不对
+正确答案： C
+
+5.我们使用了 PropTypes.string。当你给属性传递了无效值时 
+A: JavsScript 控制台将会打印警告
+B: JavsScript 会终止运行
+C: 没有效果
+D: alert消息
+正确答案： A
+
+6.要检查组件的属性，你需要配置特殊的：
+A: propTypes
+B: props
+C: data
+D: scope
+正确答案： A
+
+7. 下面那些属于PropTypes的验证器 
+A: PropTypes.array
+B: PropTypes.bool
+C: PropTypes.func
+D: PropTypes.number
+正确答案：ABCD
+
+8. ref的值如果是函数的，在组件销毁的时候执行时，不会传递下面那些东西 
+A: element
+B: node
+C: null
+D: event对象
+正确答案：ACD
+
+9.props的值可以是 
+A: dom元素
+B: 组件元素
+C: 字符串
+D: js表达式
+正确答案：ABCD
+
+10.react中验证器只能验证js数据类型 
+正确答案： 错
+
+11.static propTypes = { optionalString: string, }是正确的 知
+正确答案： 错
+
+12.react中可以指定props的值是react元素 
+正确答案： 对
+
+13. react中通过________________定义props的默认值 
+正确答案： static defaultProps = {}
+
+14.react中通过_____________定义props值的类型 
+正确答案： PropTypes
+
+15.react中声明props值的类型为string应该__________________________
+正确答案： static propTypes = { optionalString: PropTypes.string, }
+
+
+16.定义props的值的类型使用______________模块获取类型 
+正确答案： prop-types 
+
+17. 定义props值的默认值使用_________________ 
+正确答案： defaultProps
+
+18. 声明props的值是一个react元素使用______________________
+正确答案： PropTypes.element
+
+19. ReactDOM中获取一个组件元素对应的dom节点使用____________________, 
+正确答案： findDOMNode
+
+20. 在react中没有自己实例的组件是________________________________
+正确答案： 函数组件

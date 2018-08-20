@@ -1,0 +1,81 @@
+{
+    "main":[{
+        "path":"one",
+        "name":"特色美食",
+        "data":[{
+            "name":"山西特色过油肉",
+            "isCar":false,
+            "num":1,
+            "pic":1800
+        },{
+            "name":"河南祖传烩面",
+            "isCar":false,
+            "num":1,
+            "pic":1500
+        },{
+            "name":"正宗刀削面",
+            "isCar":false,
+            "num":1,
+            "pic":2300
+        }, {
+            "name": "手工莜麦面",
+            "isCar": false,
+            "num": 1,
+            "pic": 1500
+        }, {
+            "name": "干煸栲栳栳",
+            "isCar": false,
+            "num": 1,
+            "pic": 2100
+        }, {
+            "name": "香辣油泼面",
+            "isCar": false,
+            "num":1,
+            "pic": 1900
+        }, {
+            "name": "小炒回锅肉",
+            "isCar": false,
+            "num": 1,
+            "pic": 3000
+        }]
+    }, {
+        "path": "two",
+        "name": "秦淮酒家",
+        "data": [{
+            "name": "我不是过油肉",
+            "isCar": false,
+            "num": 1,
+            "pic": 3600
+        }, {
+            "name": "怎么可能是祖传的烩面",
+            "isCar": false,
+            "num": 1,
+            "pic": 1500
+        }, {
+            "name": "不是刀削的刀削面",
+            "isCar": false,
+            "num": 1,
+            "pic": 2300
+        }, {
+            "name": "才不是手工的莜麦面",
+            "isCar": false,
+            "num": 1,
+            "pic": 1500
+        }, {
+            "name": "一点特色都没有的栲栳栳",
+            "isCar": false,
+            "num": 1,
+            "pic": 5600
+        }, {
+            "name": "一点油都不给的油泼面",
+            "isCar": false,
+            "num": 1,
+            "pic": 1900
+        }, {
+            "name": "不知道有没有肉的回锅肉",
+            "isCar": false,
+            "num": 1,
+            "pic": 3600
+        }]
+    }]
+}

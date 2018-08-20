@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-size: .14rem;
+}
+
+body, html, #root, .wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.inpBox {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50%;
+  transform: scaleY(-50%);
+}
+
+.inpBox li {
+  width: 100%;
+  height: .4rem;
+  border: 1px solid #ccc;
+  line-height: .4rem;
+  margin-top: .1rem;
+  border-radius: 5px;
+}
+
+.inpBox li input {
+  padding-left: .1rem;
+  border: none;
+  outline: none;
+}
+
+.inpBox button, .inpBox a {
+  display: block;
+  width: 100%;
+  height: .4rem;
+  border: 1px solid #ccc;
+  line-height: .4rem;
+  margin-top: .1rem;
+  border: none;
+  outline: none;
+  text-align: center;
+  color: #fff;
+  background: #0086FF;
+  border-radius: 6px;
+}
+
+.listBox {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background: #DEDEDE;
+}
+
+.listBox ul {
+  height: .6rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 .2rem;
+  margin-top: .1rem;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 8px;
+}
+
+.listBox ul em {
+  text-decoration: none;
+  color: red;
+}
+
+.listBox ul li {
+  height: .4rem;
+  text-align: center;
+  line-height: .4rem;
+  width: 90%;
+  border: 1px solid #3B98B1;
+  border-radius: 5px;
+  color: #3A9164;
+}

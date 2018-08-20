@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-size: .14rem;
+}
+
+body, html, #root, .wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  border: 1px solid #eee;
+  display: flex;
+  align-items: center;
+}
+
+.box .left {
+  padding: .1rem 0;
+}
+
+.box .left img {
+  width: 6rem;
+  height: auto;
+}

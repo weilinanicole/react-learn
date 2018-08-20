@@ -1,0 +1,134 @@
+1.[单选题]( 5 分)
+applyMiddleware是属于下面那个包抛出的方法 知识点：redux 来源：大纲
+A: redux
+B: react-redux
+C: redux-thunk
+D: react-dom
+正确答案： A
+试题解析：
+我的答案： A
+2.[单选题]( 5 分)
+dispatch方法是下面那个对象的方法 知识点：redux 来源：大纲
+A: store实例
+B: actions
+C: reducers
+D: state
+正确答案： A
+试题解析：
+我的答案： A
+3.[单选题]( 5 分)
+在react路由中传递params数据获取的时候需要在 那个对象中获取 知识点：redux 来源：大纲
+A: state
+B: match
+C: history
+D: location
+正确答案： B
+试题解析：
+我的答案： D 
+4.[单选题]( 5 分)
+合并多个reducer使用那个函数 知识点：redux 来源：大纲
+A: createStore
+B: combineReducers
+C: applyMiddleware
+D: bindActionCreators
+正确答案： B
+试题解析：
+我的答案： B
+5.[单选题]( 5 分)
+Provider组件需要传递 知识点：redux 通信来源：大纲
+A: state
+B: store
+C: props
+D: context
+正确答案： B
+试题解析：
+我的答案： B
+6.[单选题]( 5 分)
+react中控制路由跳转的组件使用 ：知识点：路由 来源：大纲
+A: a
+B: href
+C: Link
+D: Route
+正确答案： C
+试题解析：
+我的答案： C
+7. [多选题] ( 5 分)
+ref的值是函数会在什么时候执行 知识点：redux 来源：大纲
+A: componentDidMount之后
+B: componentDidMount之前
+C: componentDidUpdate之前
+D: componentDidUpdate之后
+正确答案：BC
+试题解析：
+我的答案： BD
+8. [多选题] ( 5 分)
+redux的3大原则是 知识点：redux 来源：大纲
+A: State 是只读的
+B: 单一数据源
+C: 使用Reducer 来执行修改
+D: 和vuex一样
+正确答案：ABC
+试题解析：
+我的答案： ABC
+9. [多选题] ( 5 分)
+如何实现组件嵌套 知识点:组件 来源：大纲
+A: 使用children属性
+B: 使用props传递组件
+C: 使用append
+D: 使用state
+正确答案：AB
+试题解析：
+我的答案： AB
+10. [判断题] ( 5 分)
+reducer是改变state的唯一途径 知识点：redux 来源：大纲
+正确答案： 对
+试题解析：
+我的答案： 对
+11. [判断题] ( 5 分)
+在action内部可以实现异步操作 知识点：redux 来源：大纲
+正确答案： 对
+试题解析：
+我的答案： 对
+12. [判断题] ( 5 分)
+react中高阶组件就是一个函数接收一个组件，返回一个新组件 知识点：高阶组件：大纲
+正确答案： 对
+试题解析：
+我的答案： 对
+13. [填空题(自动判卷)] ( 5 分)
+redux中通过__________中间件实现异步action 知识点：redux 来源：大纲
+正确答案： redux-thunk 
+试题解析：
+我的答案： middleware
+14. [填空题(手动判卷)] ( 5 分)
+redux中通过_____________方法添加中间件 知识点：redux 来源：大纲
+正确答案： applyMiddleware
+试题解析：
+我的答案： createStore
+15. [填空题(手动判卷)] ( 5 分)
+添加中间件需要添加到createStore方法中的第__________几个参数 知识点：redux 来源：大纲
+正确答案： 2
+试题解析：
+我的答案： 3
+16. [填空题(手动判卷)] ( 5 分)
+Reducer通过__________判断执行的任务 知识点：redux 来源：大纲
+正确答案： action.type
+试题解析：
+我的答案： actions.type
+17. [填空题(手动判卷)] ( 5 分)
+dispatch通过传递________执行__________ 知识点：redux 来源：大纲
+正确答案： action, reducer
+试题解析：
+我的答案： actions reducer
+18. [填空题(手动判卷)] ( 5 分)
+connect中第一个参数可以接收到___________返回一个对象，将对象内容添加到组件的_________ 知识点：redux 来源：大纲
+正确答案： state, props
+试题解析：
+我的答案： state props
+19. [填空题(手动判卷)] ( 5 分)
+action的类型是________必须有_________ 知识点：redux 来源：大纲
+正确答案： Object, type属性
+试题解析：
+我的答案： 对象 type
+20. [填空题(手动判卷)] ( 5 分)
+connect中第________参数可以获取到dispatch 
+正确答案： 2 

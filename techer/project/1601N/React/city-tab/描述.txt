@@ -1,0 +1,1 @@
+redux可以和vue,react 结合，利用dispatch，配合react串视频

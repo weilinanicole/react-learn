@@ -1,0 +1,244 @@
+1.[单选题]( 2 分)
+组件的内部状态应该定义在那个属性上 
+A: props
+B: state
+C: data
+D: scope
+正确答案： B
+
+2.[单选题]( 2 分)
+下面那种组件构建方式适合使用构建一个简单的ui组件 来源：大纲
+A: 函数式
+B: class
+C: creatClass
+D: prototype
+正确答案： A
+
+3.[单选题]( 2 分)
+读取state中name的值应该使用 
+A: name
+B: this.name
+C: this.state.name
+D: this.props.name
+正确答案： C
+
+4.[单选题]( 2 分)
+在react中那种创建组件的方式没有自己的state 
+A: 函数定义
+B: class定义
+
+C: creacClass定义
+D: prototype
+正确答案： A
+
+5.[单选题]( 2 分)
+在react中ref的值式函数的话，在组件销毁的时候会给ref函数中传入 
+A: 字符串
+B: null
+C: 对象
+D: 布尔
+正确答案： B
+
+6.[单选题]( 2 分)
+在react中ref作用到组件上使用refs获取对应的ref返回的是 
+A: 组件对应的dom
+B: 组件对应的实例
+C: dom
+D: 以上都不对
+正确答案： B
+
+7.[单选题]( 2 分)
+ref作用在dom元素上的时候使用refs获取对应的ref返回的式 
+A: 组件对应的dom
+B: 组件对应的实例
+C: dom
+D: 以上都不对
+正确答案： C
+
+8.[单选题]( 2 分)
+ref不能作用到什么方式创建的组件上 
+A: 函数式组件
+B: class组件
+C: dom元素
+D: creatClass组件
+正确答案： A
+
+9.[单选题]( 2 分)
+
+要检查组件的属性，你需要配置：
+A: propTypes
+B: props
+C: data
+D: scope
+正确答案： A
+
+10.[单选题]( 2 分)
+在react中如何将input输入的值和state状态绑定到一起使用什么技术 
+A: v-model
+B: ng-model
+C: 受控组件
+D: r-model
+正确答案： C
+
+11.[单选题]( 2 分)
+在react合成事件中this默认清空下是 
+A: window
+B: dom
+C: 组件实例
+D: undefined
+正确答案： D
+
+12.[单选题]( 2 分)
+在redux中store的创建是使用 
+A: createStore（）
+B: dispatch(action)
+C: subscribe(listener)
+D: replaceReducer()
+正确答案： A
+
+13.[单选题]( 2 分)
+redux中改变state通过 
+A: 操作state原来的值
+B: dispatch 一个 action
+C: 执行action函数
+D: 执行subscribe函数
+正确答案： B 
+试题解析：
+
+14.[单选题]( 2 分)
+在react生命周期中组件销毁是什么 
+A: componentWillMount
+B: componentDidMount
+C: componentWillUnmount
+D: componentWillUnMount
+正确答案： C
+
+15.[单选题]( 2 分)
+dispatch方法中传递的是什么内容 
+A: state
+B: store
+C: action
+D: reducers
+正确答案： C
+
+16. [多选题] ( 3 分)
+在react中ref的值的类型可以是 
+A: string
+B: 函数
+C: 表达式
+D: 语句
+正确答案：AB
+
+17. [多选题] ( 3 分)
+下面那些方法是属于store提供的方法 
+A: getState()
+B: dispatch(action)
+C: subscribe(listener)
+D: createStore()
+正确答案：ABC
+
+18. [多选题] ( 3 分)
+react-redux提供下面那些内容 
+A: combineReducers()
+B: applyMiddleware()
+
+C: connect()
+D: Provider
+正确答案：CD
+
+19. [多选题] ( 3 分)
+在react中跨级组件通信可以使用 
+A: 自定义事件
+B: context
+C: 逐层传递props
+D: 回调函数
+正确答案：ABC
+
+20. [多选题] ( 3 分)
+JSX表达式中使用条件判断可以通过以下哪几种方法来实现 
+A: 三元运算
+B: if语句
+C: ||运算
+D: &&运算
+正确答案：ACD
+
+21. [判断题] ( 2 分)
+redux只是针对于react应用 
+正确答案： 错
+
+22. [判断题] ( 2 分)
+如果将react和redux连接在一起使用还需要配合react-redux 
+正确答案： 对
+
+23. [判断题] ( 2 分)
+connect函数可以将state与react组件连接在一起 
+正确答案： 对
+
+24. [判断题] ( 2 分)
+props可以在任何地方修改 
+正确答案： 错
+
+25. [判断题] ( 2 分)
+react中路由配置是通过组件完成的 
+正确答案： 对
+
+26. [填空题(自动判卷)] ( 3 分)
+Reducer接收先的参数是__________和__________ 
+正确答案： state , action
+
+27. [填空题(手动判卷)] ( 3 分)
+在react中获取组件实例对应的dom使用________________ 方法 
+正确答案： findDOMNode()
+
+28. [填空题(手动判卷)] ( 3 分)
+在react-redux中向组件传递stor使用____________ e
+正确答案： Provider
+
+29. [填空题(手动判卷)] ( 3 分)
+在react中吧state传递到组件使用____________________
+正确答案： connect
+
+30. [填空题(手动判卷)] ( 3 分)
+react中生命周期中最先可以获取到dom的是___________________ 
+正确答案： componentWillMount
+
+31. [填空题(手动判卷)] ( 3 分)
+react中用来配置路由规则的路由组件是__________ 
+正确答案： Route
+
+32. [填空题(手动判卷)] ( 3 分)
+redux的数据流是_____________ 
+正确答案： 单一数据源
+
+33. [填空题(手动判卷)] ( 3 分)
+修改state的值使用___________ 
+正确答案： setState()
+
+34. [填空题(手动判卷)] ( 3 分)
+在react中，<textarea> 元素通过_______________定义它的文本内容 
+正确答案： value
+
+35. [填空题(手动判卷)] ( 3 分)
+值由React控制的表单元素称为_________________ 
+正确答案： 受控组件
+
+36. [填空题(手动判卷)] ( 3 分)
+react合成事件通过______________阻止事件默认行为 
+正确答案： e.preventDefault
+
+37. [填空题(手动判卷)] ( 3 分)
+定义props值的默认值使用_________________ 
+正确答案： defaultProps
+
+38. [填空题(手动判卷)] ( 3 分)
+在react 路由中是通过___________组件的__________属性控制跳转 
+正确答案： Link, to
+
+39. [填空题(手动判卷)] ( 3 分)
+
+在react中最便捷的跨级通信是使用_____________ 
+正确答案： context
+
+40. [填空题(手动判卷)] ( 3 分)
+在select中selected属性是定义被选中状态的，在react受控组件中是根据__________的___________属性控制 
+正确答案： select, valu

@@ -1,0 +1,44 @@
+{
+    "list":[{
+        "title":"【请示流程】",
+        "time":"2016.08.01",
+        "thing":"拟排教师外出培训",
+        "master":"业务科审核",
+        "tips":"超时提醒",
+        "status":"overtime",
+        "type":"business"
+    },{
+        "title":"【发文】",
+        "time":"2016.08.01",
+        "thing":"发文于2015年7月21日009号",
+        "master":"局长签审",
+        "tips":"超时提醒",
+        "status":"overtime",
+        "type":"director"
+    },{
+        "title":"【请示流程】",
+        "time":"2016.08.01",
+        "thing":"拟排教师外出培训",
+        "master":"待办",
+        "tips":"删除",
+        "status":"willdeal",
+        "type":"delete"
+    },{
+        "title":"【请示流程】",
+        "time":"2016.08.01",
+        "thing":"拟排教师外出培训",
+        "master":"归档",
+        "tips":"删除",
+        "status":"willdeal",
+        "type":"file"
+        
+    },{
+        "title":"【请示流程】",
+        "time":"2016.08.01",
+        "thing":"拟排教师外出培训",
+        "master":"科室撤稿",
+        "tips":"撤回",
+        "status":"withdraw",
+        "type":"delete"
+    }]
+}

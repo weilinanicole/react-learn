@@ -1,0 +1,139 @@
+1.[单选题]( 5 分)
+下面方法中那个方法是需要创建并返回一个虚拟dom, 知识点：生命周期 来源：大纲
+A: componentDidMount
+B: componentWillMount
+C: render
+D: shouldComponentUpdate
+正确答案： C
+试题解析：
+我的答案： C
+2.[单选题]( 5 分)
+下面那个生命周期被称为渲染前, 知识点：生命周期 来源：大纲
+A: componentDidMount
+B: componentWillMount
+C: render
+D: shouldComponentUpdate
+正确答案： B
+试题解析：
+我的答案： B
+3.[单选题]( 5 分)
+只存在组件的内部状态的是用什么表示, , 知识点：生命周期 来源：大纲
+A: props
+B: start
+C: state
+D: data
+正确答案： B
+试题解析：
+我的答案： C
+4.[单选题]( 5 分)
+在react修改数据使用, , 知识点：生命周期 来源：大纲
+A: setState
+B: state
+C: this.state
+D: props
+正确答案： A
+试题解析：
+我的答案： A 
+
+5.[单选题]( 5 分)
+组件的 props 或者 state 的改变不需要重新渲染可以使用那个方法控制, , 知识点：生命周期 来源：大纲
+A: componentWillReceiveProps
+B: componentWillUpdate
+C: shouldComponentUpdate
+D: render
+正确答案： C
+试题解析：
+我的答案： B
+6.[单选题]( 5 分)
+componentWillUnmount主要的任务是, 来源：大纲
+A: 创建事件监听器
+B: 实例化state
+C: 改变state
+D: 清理和销毁
+正确答案： D
+试题解析：
+我的答案： D
+7. [多选题] ( 5 分)
+react存在期包含那些方法, 知识点：生命周期 来源：大纲
+A: componentWillReceiveProps
+B: shouldComponentUpdate
+C: componentWillUpdate
+D: componentDidUpdate
+正确答案：ABCD
+试题解析：
+我的答案： ABCD
+8. [多选题] ( 5 分)
+下面那些生命周期执行一次, 知识点：生命周期 来源：大纲
+A: componentDidMount
+B: render
+C: getDefaultProps
+D: componentWillReceiveProps
+正确答案：AB
+试题解析：
+我的答案： ACD
+9. [多选题] ( 5 分)
+在state修改后那个生命周期不会执行, 知识点：生命周期 来源：大纲
+A: componentWillReceiveProps
+B: shouldComponentUpdate
+C: render
+D: getInitialState
+正确答案：AD
+试题解析：
+我的答案： BCD
+10. [判断题] ( 5 分)
+
+react生命周期有2个阶段, 知识点：生命周期 来源：大纲
+正确答案： 错
+试题解析：
+我的答案： 错
+11. [判断题] ( 5 分)
+当组件的state改变先执行shouldComponentUpdate在执行render, 知识点：生命周期 来源：大纲
+正确答案： 对
+试题解析：
+我的答案： 对
+12. [判断题] ( 5 分)
+getDefaultProps执行在getInitialState执行之前, 知识点：生命周期 来源：大纲
+正确答案： 对
+试题解析：
+我的答案： 对
+13. [填空题(自动判卷)] ( 5 分)
+使用class创建组件getDefaultProps替换为_____________________, 知识点：生命周期 来源：大纲
+正确答案： static defaultProps = {}
+试题解析：
+我的答案： construtor(props){super(props)}
+14. [填空题(手动判卷)] ( 5 分)
+一个React组件的生命周期分为__________________________________________部分, 知识点：生命周期 来源：大纲
+正确答案： 实例化, 存在期, 销毁期
+试题解析：
+我的答案： 10
+15. [填空题(手动判卷)] ( 5 分)
+在使用class定义的组件中state的声明方式为__________________, , 知识点：生命周期 来源：大纲
+正确答案： this.state = {}
+试题解析：
+我的答案： this.state={}
+16. [填空题(手动判卷)] ( 5 分)
+使用createClass定义的组件中state的声明方式为____________________, , 知识点：生命周期 来源：大纲
+正确答案： getInitalState = {}
+试题解析：
+我的答案： get
+17. [填空题(手动判卷)] ( 5 分)
+react的声明周期有______________个, 知识点：生命周期 来源：大纲
+正确答案： 10
+试题解析：
+我的答案： 10
+18. [填空题(手动判卷)] ( 5 分)
+每当React使用完一个组件，这个组件必须从 DOM 中卸载后被销毁，此时__________________声明周期会被执行, 知识点：生命周期 来源：大纲
+2018/1/6 已考试卷查看
+正确答案： componentWillUnmount
+试题解析：
+我的答案： componentWillUnmount
+19. [填空题(手动判卷)] ( 5 分)
+当组件在客户端被实例化，第一次被创建时___________________________________________________________________方法依次被调用, 知识点：生命周期 来源：大纲
+正确答案： getDefaultProps getInitialState componentWillMount render componentDidMount
+试题解析：
+我的答案： componentWillmount
+20. [填空题(手动判卷)] ( 5 分)
+每次修改 state，都会重新渲染组件，实例化后通过 state 更新组件，会依次调用_________________________________________________________________________
+正确答案： shouldComponentUpdate componentWillUpdate render componentDidUpdate
+试题解析：
+我的答案： componentWillUpdate componentDidUpdate 
